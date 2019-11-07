@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Age Morphosis Cells</name>
+	<author>TheSleeplessSorclock</author>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<description>&lt;color=orange&gt;&lt;b&gt;Requirements: &lt;/b&gt; This mod is using HugsLib 6.0.1&lt;/color&gt;\n
+This mod adds a high-tech cells which can change the biological age of your colonist pawns.
+Version: 1.0
+	</description>	
+</ModMetaData>
