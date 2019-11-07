@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Demon privates -->
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>DemonTentaclePenis</defName>
+		<label>demon tentacles</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.75</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>DemonPenis</defName>
+		<label>demon penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.75</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>DemonVagina</defName>
+		<label>demon vagina</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.75</SexAbility>
+					<Vulnerability>0.2</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>DemonAnus</defName>
+		<label>demon anus</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.75</SexAbility>
+					<Vulnerability>0.2</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

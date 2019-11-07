@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>RimJobWorld</name>
+	<author>Ed86</author>
+	<url>https://gitgud.io/Ed86/rjw</url>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<description>
+M for Mature
+
+Load mod at bottom of mod list:
+	Core
+	HugsLib
+	++Mods
+	RimJobWorld
+	RJW_Ex
+
+Support dev: https://www.patreon.com/Ed86
+Forum: https://www.loverslab.com/files/file/7257-rimjobworld/
+Discord: https://discord.gg/CXwHhv8
+	</description>
+</ModMetaData>

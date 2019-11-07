@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Torso.label>тулуб</Torso.label>
+  <Shoulder.label>плече</Shoulder.label>
+  <Arm.label>рука</Arm.label>
+  <Hand.label>долоня</Hand.label>
+  <Finger.label>палець</Finger.label>
+  <Waist.label>талія</Waist.label>
+  <Toe.label>палець ноги</Toe.label>
+
+
+  <!-- Bones -->
+
+  <Clavicle.label>ключиця</Clavicle.label>
+  <Sternum.label>грудина</Sternum.label>
+  <Humerus.label>плечова кістка</Humerus.label>
+  <Radius.label>променева кістка</Radius.label>
+  <Pelvis.label>таз</Pelvis.label>
+  <Femur.label>стегно</Femur.label>
+  <Tibia.label>гомілка</Tibia.label>
+
+
+</LanguageData>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BodyDef[defName = "MechanicalCentipede"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>MechGenitals</def>
+				<!-- Causes yellow error(all parts coverage >1), if 0 causes red error(cant hit object error when its getting hit, see Waist bug) -->
+				<coverage>0.001</coverage>
+				<depth>Inside</depth>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BodyDef[defName = "Scyther"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>MechGenitals</def>
+				<coverage>0.001</coverage>
+				<depth>Inside</depth>
+			</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BodyDef[defName = "Lancer"]/corePart/parts</xpath>
+		<value>
+			<li>
+				<def>MechGenitals</def>
+				<coverage>0.001</coverage>
+				<depth>Inside</depth>
+			</li>
+		</value>
+	</Operation>
+</Patch>

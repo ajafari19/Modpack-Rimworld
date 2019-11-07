@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Regular privates -->
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>Penis</defName>
+		<label>average penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.5</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>Penis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<!-- Additional dick sizes -->
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>MicroPenis</defName>
+		<label>micro penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.1</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>MicroPenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>SmallPenis</defName>
+		<label>small penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.4</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>SmallPenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>BigPenis</defName>
+		<label>Big Penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.6</SexAbility>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.03</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>BigPenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>HugePenis</defName>
+		<label>Huge penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.8</SexAbility>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.06</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>HugePenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>Vagina</defName>
+		<label>average vagina</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.5</SexAbility>
+					<Vulnerability>0.10</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>Vagina</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>MicroVagina</defName>
+		<label>micro vagina</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.1</SexAbility>
+					<Vulnerability>0.02</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>MicroVagina</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>TightVagina</defName>
+		<label>tight vagina</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.45</SexAbility>
+					<Vulnerability>0.14</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>TightVagina</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>LooseVagina</defName>
+		<label>loose vagina</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.25</SexAbility>
+					<Vulnerability>0.06</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>LooseVagina</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>GapingVagina</defName>
+		<label>gaping vagina</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.1</SexAbility>
+					<Vulnerability>0.02</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>GapingVagina</spawnThingOnRemoved>
+	</HediffDef>
+
+	<!-- Natural Breasts -->
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>Breasts</defName>
+		<label>average breasts</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.5</SexAbility>
+					<Vulnerability>0.08</Vulnerability>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.025</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.025</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>Breasts</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>FlatBreasts</defName>
+		<label>flat breasts</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.1</SexAbility>
+					<Vulnerability>0.02</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>FlatBreasts</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>SmallBreasts</defName>
+		<label>small breasts</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.3</SexAbility>
+					<Vulnerability>0.04</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>SmallBreasts</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>LargeBreasts</defName>
+		<label>large breasts</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.7</SexAbility>
+					<Vulnerability>0.12</Vulnerability>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.05</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>LargeBreasts</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>HugeBreasts</defName>
+		<label>huge breasts</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.9</SexAbility>
+					<Vulnerability>0.16</Vulnerability>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>HugeBreasts</spawnThingOnRemoved>
+	</HediffDef>
+
+	<!-- Natural anuses -->
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>Anus</defName>
+		<label>average anus</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.5</SexAbility>
+					<Vulnerability>0.12</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>Anus</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>MicroAnus</defName>
+		<label>micro anus</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.1</SexAbility>
+					<Vulnerability>0.02</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>MicroAnus</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>TightAnus</defName>
+		<label>tight anus</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.45</SexAbility>
+					<Vulnerability>0.16</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>TightAnus</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>LooseAnus</defName>
+		<label>loose anus</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.25</SexAbility>
+					<Vulnerability>0.08</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>LooseAnus</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>GapingAnus</defName>
+		<label>gaping anus</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.1</SexAbility>
+					<Vulnerability>0.04</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>GapingAnus</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>FeaturelessChest</defName>
+		<label>featureless chest</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<Vulnerability>-0.05</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>FeaturelessChest</spawnThingOnRemoved>
+	</HediffDef>
+</Defs>

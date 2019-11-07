@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>[KV] Weapon Storage - 1.0</name>
+    <author>Kiame Vivacity</author>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<url>https://ludeon.com/forums/index.php?topic=35503.0</url>
+    <description>Stores weapons.
+	
+Assign weapons to pawns. When those pawns are drafted, they can switch between the weapons assigned to them.
+
+If the storage crate is destroyed all stored weapons will drop on the floor. Assigned weapons will not drop on the floor though and will still be usable by the pawns the weapons are assigned to. To change or access the assigned weapons, use any other weapon storage crate.
+
+Assigned weapons can be managed from any weapon storage crate.
+</description>
+</ModMetaData>

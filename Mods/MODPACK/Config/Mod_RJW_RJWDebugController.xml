@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="rjw.RJWDebugSettings">
+		<submit_button_enabled>True</submit_button_enabled>
+		<show_RJW_designation_box>True</show_RJW_designation_box>
+		<StackRjwParts>True</StackRjwParts>
+		<GenderlessAsFuta>True</GenderlessAsFuta>
+		<Wildmode>True</Wildmode>
+		<DevMode>False</DevMode>
+		<DebugLogJoinInBed>False</DebugLogJoinInBed>
+	</ModSettings>
+</SettingsBlock>

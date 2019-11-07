@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Slime privates -->
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>SlimeTentacles</defName>
+		<label>slime tentacles</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>2.0</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>SlimeGlob</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>SlimeVagina</defName>
+		<label>slime vagina</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>2.0</SexAbility>
+					<Vulnerability>0.2</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>SlimeGlob</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>SlimeBreasts</defName>
+		<label>slime breasts</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>2.0</SexAbility>
+					<Vulnerability>0.18</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>SlimeGlob</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>SlimeAnus</defName>
+		<label>slime anus</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>2.0</SexAbility>
+					<Vulnerability>0.2</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>SlimeGlob</spawnThingOnRemoved>
+	</HediffDef>
+</Defs>

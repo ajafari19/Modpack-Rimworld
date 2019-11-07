@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<WorkGiverDef>
+		<defName>WG_Rape</defName>
+		<label>Rapin'</label>
+		<giverClass>rjw.WorkGiver_Rape</giverClass>
+		<workType>BasicWorker</workType>
+		<verb>rape</verb>
+		<gerund>raping</gerund>
+		<priorityInType>10</priorityInType>
+		<workTags>
+			<li>Violent</li>
+		</workTags>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>WG_RapeEnemy</defName>
+		<label>Rapin' enemy</label>
+		<giverClass>rjw.WorkGiver_RapeEnemy</giverClass>
+		<workType>BasicWorker</workType>
+		<verb>rape enemy</verb>
+		<gerund>raping enemy</gerund>
+		<priorityInType>10</priorityInType>
+		<workTags>
+			<li>Violent</li>
+		</workTags>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>WG_RapeCP</defName>
+		<label>Rapin' comfort prisoner</label>
+		<giverClass>rjw.WorkGiver_RapeCP</giverClass>
+		<workType>BasicWorker</workType>
+		<verb>rape CP</verb>
+		<gerund>raping CP</gerund>
+		<priorityInType>10</priorityInType>
+		<workTags>
+			<li>Violent</li>
+		</workTags>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>WG_ViolateCorpse</defName>
+		<label>Violatin' corpse</label>
+		<giverClass>rjw.WorkGiver_ViolateCorpse</giverClass>
+		<workType>BasicWorker</workType>
+		<verb>violate corpse</verb>
+		<gerund>violating corpse</gerund>
+		<priorityInType>10</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>WG_BestialityFM</defName>
+		<label>Sexin' animal</label>
+		<giverClass>rjw.WorkGiver_BestialityForMale</giverClass>
+		<workType>BasicWorker</workType>
+		<verb>breed(active)</verb>
+		<gerund>breeding(active)</gerund>
+		<priorityInType>10</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>WG_BestialityFF</defName>
+		<label>Sexin' animal</label>
+		<giverClass>rjw.WorkGiver_BestialityForFemale</giverClass>
+		<workType>BasicWorker</workType>
+		<verb>breed(passive)</verb>
+		<gerund>breeding(passive)</gerund>
+		<priorityInType>10</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>WG_Fap</defName>
+		<label>Fappin'</label>
+		<giverClass>rjw.WorkGiver_Fap</giverClass>
+		<workType>BasicWorker</workType>
+		<verb>fap</verb>
+		<gerund>faping</gerund>
+		<priorityInType>10</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>WG_Fap_bed</defName>
+		<label>Fappin' in bed</label>
+		<giverClass>rjw.WorkGiver_Fap_Bed</giverClass>
+		<workType>BasicWorker</workType>
+		<verb>fap</verb>
+		<gerund>faping</gerund>
+		<priorityInType>10</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef>
+		<defName>WG_HaveSex</defName>
+		<label>Havin' sex</label>
+		<giverClass>rjw.WorkGiver_Sex</giverClass>
+		<workType>BasicWorker</workType>
+		<verb>have sex</verb>
+		<gerund>having sex</gerund>
+		<priorityInType>10</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+<!--
+	  <WorkTypeDef>
+    <defName>Cleaning</defName>
+    <labelShort>Clean</labelShort>
+    <pawnLabel>Cleaner</pawnLabel>
+    <gerundLabel>cleaning</gerundLabel>
+    <description>Clear snow and clean the floor in the home area.</description>
+    <verb>Clean</verb>
+    <naturalPriority>200</naturalPriority>
+    <alwaysStartActive>true</alwaysStartActive>
+    <requireCapableColonist>true</requireCapableColonist>
+    <workTags>
+      <li>ManualDumb</li>
+      <li>Cleaning</li>
+    </workTags>
+  </WorkTypeDef>
+
+	<WorkGiverDef>
+		<defName>WG_CleanSexStuff</defName>
+		<labelShort>Clean</labelShort>
+		<pawnLabel>Cleaner</pawnLabel>
+		<gerundLabel>cleaning</gerundLabel>
+		<giverClass>rjw.WorkGiver_CleanSexStuff</giverClass>
+		<workType>BasicWorker</workType>
+		<verb>Clean</verb>
+		<priorityInType>10</priorityInType>
+		<workTags>
+			<li>ManualDumb</li>
+			<li>Cleaning</li>
+		</workTags>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+-->
+</Defs>

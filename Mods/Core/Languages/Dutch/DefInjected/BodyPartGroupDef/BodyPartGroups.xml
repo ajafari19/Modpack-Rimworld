@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: arms -->
+  <Arms.label>armen</Arms.label>
+  
+  <!-- EN: beak -->
+  <Beak.label>snavel</Beak.label>
+  
+  <!-- EN: eyes -->
+  <Eyes.label>ogen</Eyes.label>
+  
+  <!-- EN: feet -->
+  <Feet.label>voeten</Feet.label>
+  
+  <!-- EN: front left claws -->
+  <FrontLeftClaws.label>linker voorklauwen</FrontLeftClaws.label>
+  <!-- EN: claws -->
+  <FrontLeftClaws.labelShort>klauwn</FrontLeftClaws.labelShort>
+  
+  <!-- EN: front left leg -->
+  <FrontLeftLeg.label>linker voorbeen</FrontLeftLeg.label>
+  <!-- EN: leg -->
+  <FrontLeftLeg.labelShort>been</FrontLeftLeg.labelShort>
+  
+  <!-- EN: front left paw -->
+  <FrontLeftPaw.label>linker voorpoot</FrontLeftPaw.label>
+  <!-- EN: paw -->
+  <FrontLeftPaw.labelShort>poot</FrontLeftPaw.labelShort>
+  
+  <!-- EN: front right claws -->
+  <FrontRightClaws.label>rechter voorklauwen</FrontRightClaws.label>
+  <!-- EN: claws -->
+  <FrontRightClaws.labelShort>klauwen</FrontRightClaws.labelShort>
+  
+  <!-- EN: front right leg -->
+  <FrontRightLeg.label>rechter voorbeen</FrontRightLeg.label>
+  <!-- EN: leg -->
+  <FrontRightLeg.labelShort>been</FrontRightLeg.labelShort>
+  
+  <!-- EN: front right paw -->
+  <FrontRightPaw.label>rechter voorpoot</FrontRightPaw.label>
+  <!-- EN: paw -->
+  <FrontRightPaw.labelShort>poot</FrontRightPaw.labelShort>
+  
+  <!-- EN: full head -->
+  <FullHead.label>volledig hoofd</FullHead.label>
+  
+  <!-- EN: hands -->
+  <Hands.label>handen</Hands.label>
+  
+  <!-- EN: head -->
+  <HeadAttackTool.label>hoofd</HeadAttackTool.label>
+  
+  <!-- EN: claw -->
+  <HeadClaw.label>klauw</HeadClaw.label>
+  
+  <!-- EN: horn -->
+  <HornAttackTool.label>hoorn</HornAttackTool.label>
+  
+  <!-- EN: left blade -->
+  <LeftBlade.label>linker mes</LeftBlade.label>
+  <!-- EN: blade -->
+  <LeftBlade.labelShort>mes</LeftBlade.labelShort>
+  
+  <!-- EN: left fist -->
+  <LeftHand.label>linker vuist</LeftHand.label>
+  <!-- EN: fist -->
+  <LeftHand.labelShort>vuist</LeftHand.labelShort>
+  
+  <!-- EN: legs -->
+  <Legs.label>benen</Legs.label>
+  
+  <!-- EN: mouth -->
+  <Mouth.label>mond</Mouth.label>
+  
+  <!-- EN: neck -->
+  <Neck.label>nek</Neck.label>
+  
+  <!-- EN: right blade -->
+  <RightBlade.label>rechter mes</RightBlade.label>
+  <!-- EN: blade -->
+  <RightBlade.labelShort>mes</RightBlade.labelShort>
+  
+  <!-- EN: right fist -->
+  <RightHand.label>rechter vuist</RightHand.label>
+  <!-- EN: fist -->
+  <RightHand.labelShort>vuist</RightHand.labelShort>
+  
+  <!-- EN: shoulders -->
+  <Shoulders.label>schouders</Shoulders.label>
+  
+  <!-- EN: teeth -->
+  <Teeth.label>tanden</Teeth.label>
+  
+  <!-- EN: torso -->
+  <Torso.label>romp</Torso.label>
+  
+  <!-- EN: beak -->
+  <TurtleBeakAttackTool.label>bek</TurtleBeakAttackTool.label>
+  
+  <!-- EN: tusks -->
+  <TuskAttackTool.label>slagtanden</TuskAttackTool.label>
+  
+  <!-- EN: upper head -->
+  <UpperHead.label>voorhoofd</UpperHead.label>
+  
+  <!-- EN: waist -->
+  <Waist.label>heup</Waist.label>
+  
+</LanguageData>

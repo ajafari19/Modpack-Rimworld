@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Don't Judge Us!</name>
+	<author>Fenguard</author>
+	<url>None</url>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<description>
+	Removes the opinion penalty and relatonship chance penalties for blood related pawns, ideal for tribal colonies with lax moral interest.
+	</description>
+</ModMetaData>

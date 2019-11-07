@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: jaw -->
+  <AnimalJaw.label>kaak</AnimalJaw.label>
+  
+  <!-- EN: antenna -->
+  <Antenna.label>antenne</Antenna.label>
+  
+  <!-- EN: beak -->
+  <Beak.label>snavel</Beak.label>
+  
+  <!-- EN: body -->
+  <Body.label>lichaam</Body.label>
+  
+  <!-- EN: elytra -->
+  <Elytra.label>Dekschild</Elytra.label>
+  
+  <!-- EN: front claw -->
+  <FrontClaw.label>voorklauw</FrontClaw.label>
+  <!-- EN: claw -->
+  <FrontClaw.labelShort>klauw</FrontClaw.labelShort>
+  
+  <!-- EN: head claw -->
+  <HeadClaw.label>hoofd Klauw</HeadClaw.label>
+  
+  <!-- EN: hoof -->
+  <Hoof.label>Hoef</Hoof.label>
+  
+  <!-- EN: horn -->
+  <Horn.label>hoorn</Horn.label>
+  
+  <!-- EN: hump -->
+  <Hump.label>bult</Hump.label>
+  
+  <!-- EN: head -->
+  <InsectHead.label>kop</InsectHead.label>
+  
+  <!-- EN: heart -->
+  <InsectHeart.label>hart</InsectHeart.label>
+  
+  <!-- EN: leg -->
+  <InsectLeg.label>been</InsectLeg.label>
+  
+  <!-- EN: mouth -->
+  <InsectMouth.label>mond</InsectMouth.label>
+  
+  <!-- EN: nostril -->
+  <InsectNostril.label>neusgat</InsectNostril.label>
+  
+  <!-- EN: jowl -->
+  <Jowl.label>wang</Jowl.label>
+  
+  <!-- EN: paw -->
+  <Paw.label>poot</Paw.label>
+  
+  <!-- EN: plastron -->
+  <Plastron.label>buikpantser</Plastron.label>
+  
+  <!-- EN: pronotum -->
+  <Pronotum.label>halsschild</Pronotum.label>
+  
+  <!-- EN: rear claw -->
+  <RearClaw.label>achterklauw</RearClaw.label>
+  <!-- EN: claw -->
+  <RearClaw.labelShort>klauw</RearClaw.labelShort>
+  
+  <!-- EN: shell -->
+  <Shell.label>pantser</Shell.label>
+  
+  <!-- EN: body -->
+  <SnakeBody.label>lichaam</SnakeBody.label>
+  
+  <!-- EN: head -->
+  <SnakeHead.label>kop</SnakeHead.label>
+  
+  <!-- EN: mouth -->
+  <SnakeMouth.label>mond</SnakeMouth.label>
+  
+  <!-- EN: tail -->
+  <Tail.label>staart</Tail.label>
+  
+  <!-- EN: trunk -->
+  <Trunk.label>slurf</Trunk.label>
+  
+  <!-- EN: beak -->
+  <TurtleBeak.label>bek</TurtleBeak.label>
+  
+  <!-- EN: shell -->
+  <TurtleShell.label>schild</TurtleShell.label>
+  
+  <!-- EN: tusk -->
+  <Tusk.label>slagtand</Tusk.label>
+  
+</LanguageData>

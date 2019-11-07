@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.RaceGroupDef>
+		<defName>Alien_Group</defName>
+		<raceNames>
+			<li>Alien_NiHal</li>
+		</raceNames>
+
+		<femaleBreasts>
+			<li>FeaturelessChest</li>
+		</femaleBreasts>
+		
+		<femaleGenitals>
+			<li>OvipositorF</li>
+		</femaleGenitals>
+		
+		<maleBreasts>
+			<li>FeaturelessChest</li>
+		</maleBreasts>
+		
+		<maleGenitals>
+			<li>Hemipenis</li>
+		</maleGenitals>
+
+	</rjw.RaceGroupDef>
+</Defs>

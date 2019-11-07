@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<WorkGiverDef><!--maybe this should be a joy giver, otherwise prisoners might not do it-->
+		<defName>CleanSelf</defName>
+		<label>clean self</label>
+		<giverClass>rjw.WorkGiver_CleanSelf</giverClass>
+		<workType>BasicWorker</workType>
+		<verb>clean self</verb>
+		<gerund>cleaning self</gerund>
+		<priorityInType>11</priorityInType><!-- slightly higher than normal cleaning (relatively unimportant)-->
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+</Defs>

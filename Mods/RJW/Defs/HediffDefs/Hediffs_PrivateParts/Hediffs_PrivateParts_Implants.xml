@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Simple prosthetic privates -->
+	<HediffDef ParentName="ArtificialPrivatePartLotech">
+		<hediffClass>Hediff_Implant</hediffClass>	<!-- do not count it as Hediff_AddedPart for transhumanist/prostophobe -->
+		<defName>PegDick</defName>
+		<label>peg dick</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.15</SexAbility>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Reproduction</capacity>
+						<offset>-1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>PegDick</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="ArtificialPrivatePartLotech">
+		<defName>HydraulicPenis</defName>
+		<label>hydraulic penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.25</SexAbility>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Reproduction</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>HydraulicPenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="ArtificialPrivatePartLotech">
+		<defName>HydraulicVagina</defName>
+		<label>hydraulic vagina</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Reproduction</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<SexAbility>0.25</SexAbility>
+					<Vulnerability>0.04</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>HydraulicVagina</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="ArtificialPrivatePartLotech">
+		<defName>HydraulicBreasts</defName>
+		<label>hydraulic breasts</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.1</SexAbility>
+					<Vulnerability>0.03</Vulnerability>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>HydraulicBreasts</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="ArtificialPrivatePartLotech">
+		<defName>HydraulicAnus</defName>
+		<label>hydraulic anus</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.25</SexAbility>
+					<Vulnerability>0.04</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>HydraulicAnus</spawnThingOnRemoved>
+	</HediffDef>
+
+	<!-- Bionic privates -->
+	<HediffDef ParentName="ArtificialPrivatePartHitech">
+		<defName>BionicPenis</defName>
+		<label>bionic penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.8</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>BionicPenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="ArtificialPrivatePartHitech">
+		<defName>BionicVagina</defName>
+		<label>bionic vagina</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.8</SexAbility>
+					<Vulnerability>0.2</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>BionicVagina</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="ArtificialPrivatePartHitech">
+		<defName>BionicBreasts</defName>
+		<label>bionic breasts</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.6</SexAbility>
+					<Vulnerability>0.18</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>BionicBreasts</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="ArtificialPrivatePartHitech">
+		<defName>BionicAnus</defName>
+		<label>bionic anus</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.8</SexAbility>
+					<Vulnerability>0.2</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>BionicAnus</spawnThingOnRemoved>
+	</HediffDef>
+
+	<!-- Archotech -->
+	<HediffDef ParentName="ArtificialPrivatePartHitech">
+		<defName>ArchotechPenis</defName>
+		<label>archotech penis</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Reproduction</capacity>
+						<offset>0.25</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<SexAbility>0.6</SexAbility>
+					<ImmunityGainSpeed>0.05</ImmunityGainSpeed>
+					<ToxicSensitivity>-0.05</ToxicSensitivity>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>ArchotechPenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="ArtificialPrivatePartHitech">
+		<defName>ArchotechVagina</defName>
+		<label>archotech vagina</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Reproduction</capacity>
+						<offset>0.25</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<SexAbility>0.6</SexAbility>
+					<ImmunityGainSpeed>0.05</ImmunityGainSpeed>
+					<ToxicSensitivity>-0.05</ToxicSensitivity>
+					<Vulnerability>-0.25</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>ArchotechVagina</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="ArtificialPrivatePartHitech">
+		<defName>ArchotechAnus</defName>
+		<label>archotech anus</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.25</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.5</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<SexAbility>0.6</SexAbility>
+					<Vulnerability>-0.2</Vulnerability>
+					<HungerRateMultiplier>-0.3</HungerRateMultiplier>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>ArchotechAnus</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="ArtificialPrivatePartHitech">
+		<defName>ArchotechBreasts</defName>
+		<label>archotech breasts</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<SexAbility>0.6</SexAbility>
+					<Vulnerability>-0.1</Vulnerability>
+					<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>ArchotechBreasts</spawnThingOnRemoved>
+	</HediffDef>
+</Defs>

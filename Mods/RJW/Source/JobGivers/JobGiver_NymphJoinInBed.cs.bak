@@ -1,0 +1,150 @@
+using System.Collections.Generic;
+using System.Linq;
+using RimWorld;
+using Verse;
+using Verse.AI;
+
+namespace rjw
+{
+	public class JobGiver_NymphJoinInBed : ThinkNode_JobGiver
+	{
+		private static bool roll_to_skip(Pawn nymph, Pawn target)
+		{
+			float fuckability = xxx.would_fuck(nymph, target); // 0.0 to 1.0
+			if (fuckability < 0.1f)
+				return false;
+			float chance_to_skip = 0.9f - 0.7f * fuckability;
+			return Rand.Value < chance_to_skip;
+		}
+
+		private static bool is_healthy(Pawn target)
+		{
+			return xxx.is_healthy(target) &&
+			       (xxx.can_fuck(target) || xxx.can_be_fucked(target));
+		}
+
+		public static Pawn find_pawn_to_fuck(Pawn nymph, Map map)
+		{
+			Pawn best_fuckee = null;
+			float best_distance = 1.0e6f;
+			List<Pawn> valid_targets = new List<Pawn>();
+
+			// find lover/partner on same map
+			IEnumerable<Pawn> targets = map.mapPawns.AllPawnsSpawned.Where(x => x != nymph && x.InBed() && !x.Position.IsForbidden(nymph) && !x.Suspended && !x.Downed && is_healthy(x));
+
+			foreach (DirectPawnRelation relation in nymph.relations.DirectRelations)
+			{
+				if (relation.def != PawnRelationDefOf.Lover
+					&& relation.def != PawnRelationDefOf.Spouse
+					&& relation.def != PawnRelationDefOf.Fiance)
+					//|| (relation.def != PawnRelationDefOf.Bond && (!xxx.is_animal(relation.otherPawn) || (xxx.is_zoophile(nymph) && RJWSettings.bestiality_enabled))))
+						continue;
+				{
+					//Log.Message("[RJW] find_pawn_to_fuck( " + xxx.get_pawnname(best_fuckee) + " ) Lover/Spouse/Fiance found");
+					if (nymph.Position.DistanceToSquared(relation.otherPawn.Position) < 60 &&
+						nymph.CanReserveAndReach(relation.otherPawn, PathEndMode.OnCell, Danger.Some, 1, 0) &&
+						relation.otherPawn.CanReserve(nymph, 1, 0))
+
+						if (targets.Contains(relation.otherPawn))
+							valid_targets.Add(relation.otherPawn);
+					//Log.Message("[RJW] find_pawn_to_fuck( " + xxx.get_pawnname(best_fuckee) + " ) Lover/Spouse/Fiance cant be fucked right now");
+				}
+			}
+
+			if (valid_targets != null && valid_targets.Any())
+			{
+				foreach (Pawn q in valid_targets)
+				{
+					if (xxx.is_laying_down_alone(q) &&
+						nymph.CanReserveAndReach(q, PathEndMode.OnCell, Danger.Some, 1, 0) &&
+						q.CanReserve(nymph, 1, 0) &&
+						roll_to_skip(nymph, q))
+					{
+						int dis = nymph.Position.DistanceToSquared(q.Position);
+						if (dis < best_distance)
+						{
+							best_fuckee = q;
+							best_distance = dis;
+						}
+					}
+				}
+				if (best_fuckee != null)
+					return best_fuckee;
+			}
+
+			targets = targets.Where(x => xxx.is_human(x));
+			foreach (Pawn q in targets)
+			{
+				if (xxx.is_laying_down_alone(q) &&
+					nymph.CanReserveAndReach(q, PathEndMode.OnCell, Danger.Some, 1, 0) &&
+				    q.CanReserve(nymph, 1, 0) &&
+				    roll_to_skip(nymph, q))
+				{
+					int dis = nymph.Position.DistanceToSquared(q.Position);
+					if (dis < best_distance)
+					{
+						best_fuckee = q;
+						best_distance = dis;
+					}
+				}
+			}
+			return best_fuckee;
+		}
+
+		protected override Job TryGiveJob(Pawn nymph)
+		{
+			//--Log.Message("[RJW] JobGiver_NymphJoinInBed( " + xxx.get_pawnname(nymph) + " ) called");
+
+			if ((nymph.CurJob == null || nymph.CurJob.def == JobDefOf.LayDown))
+			{
+				//--Log.Message("   checking nympho and abilities");
+				if ((xxx.can_fuck(nymph) || xxx.can_be_fucked(nymph)))
+				{
+					//--Log.Message("   finding partner");
+					Pawn partner = find_pawn_to_fuck(nymph, nymph.Map);
+
+					//--Log.Message("   checking partner");
+					if (partner == null) return null;
+
+					Building_Bed bed;
+
+					if (xxx.is_human(partner))
+					{
+						// Can never be null, since find checks for bed.
+						bed = partner.CurrentBed();
+
+						// Interrupt current job.
+						if (nymph.CurJob != null)
+							nymph.jobs.curDriver.EndJobWith(JobCondition.InterruptForced);
+
+						//--Log.Message("   returning job");
+						return new Job(DefDatabase<JobDef>.GetNamed("NymphJoinInBed"), partner, bed);
+					}
+					/*
+					else if (xxx.is_animal(partner) && xxx.is_zoophile(nymph) && RJWSettings.bestiality_enabled)
+					{
+						if (xxx.can_rape(nymph) && Rand.Value < 0.5f)
+						{
+							if (nymph.CurJob != null)
+								nymph.jobs.curDriver.EndJobWith(JobCondition.InterruptForced);
+
+								return new Job(xxx.bestiality, partner);
+						}
+						
+						//not sure if animal can "wakeup" and go to nymph
+						bed = nymph.ownership.OwnedBed;
+						if (!xxx.can_be_fucked(nymph) || bed == null || !partner.CanReach(bed, PathEndMode.OnCell, Danger.Some)) return null;
+
+						if (nymph.CurJob != null)
+							nymph.jobs.curDriver.EndJobWith(JobCondition.InterruptForced);
+
+						return new Job(xxx.bestialityForFemale, partner, bed, bed.SleepPosOfAssignedPawn(nymph));
+					}
+					*/
+				}
+			}
+
+			return null;
+		}
+	}
+}

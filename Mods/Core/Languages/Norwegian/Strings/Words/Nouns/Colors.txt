@@ -1,0 +1,14 @@
+﻿
+//Simple colors only, no mauve and puce
+
+
+rød
+blå
+grønn
+indigo
+svart
+hvit
+grå
+oransje
+turkis
+brun

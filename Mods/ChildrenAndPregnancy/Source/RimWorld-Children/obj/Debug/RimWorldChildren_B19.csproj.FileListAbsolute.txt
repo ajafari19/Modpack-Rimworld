@@ -1,0 +1,5 @@
+C:\Users\KJS\Desktop\00_Folder\Games\RW\01_CnP\ChildrenAndPregnancy-master_Fix\Assemblies\RimWorldChildren.dll
+C:\Users\KJS\Desktop\00_Folder\Games\RW\01_CnP\ChildrenAndPregnancy-master_Fix\ChildrenAndPregnancy-master\Source\RimWorld-Children\obj\Debug\RimWorldChildren_B19.csprojResolveAssemblyReference.cache
+C:\Users\KJS\Desktop\00_Folder\Games\RW\01_CnP\ChildrenAndPregnancy-master_Fix\ChildrenAndPregnancy-master\Source\RimWorld-Children\obj\Debug\RimWorldChildren.dll
+C:\Users\KJS\Desktop\00_Folder\Games\RW\01_CnP\Assemblies\RimWorldChildren.dll
+C:\Users\KJS\Desktop\00_Folder\Games\RW\01_CnP\04_AssemblyEdit\Source\RimWorld-Children\obj\Debug\RimWorldChildren.dll

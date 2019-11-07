@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--Better Infestations-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/DutyDef[defName="BI_QueenDuty"]</xpath>
+			</li>
+	
+			<li Class="PatchOperationInsert">
+				<xpath>Defs/DutyDef[defName="BI_QueenDuty"]/thinkNode/subNodes/li[@Class="ThinkNode_ChancePerHour_Constant"]</xpath>
+				<value>
+					<li Class="rjw.JobGiver_RapeEnemy" />
+				</value>
+			</li>
+			<li Class="PatchOperationInsert">
+				<xpath>Defs/DutyDef[defName="BI_MegaspiderDuty"]/thinkNode/subNodes/li[@Class="ThinkNode_ChancePerHour_Constant"]</xpath>
+				<value>
+					<li Class="rjw.JobGiver_RapeEnemy" />
+				</value>
+			</li>
+			<li Class="PatchOperationInsert">
+				<xpath>Defs/DutyDef[defName="BI_SpelopedeDuty"]/thinkNode/subNodes/li[@Class="ThinkNode_ChancePerHour_Constant"]</xpath>
+				<value>
+					<li Class="rjw.JobGiver_RapeEnemy" />
+				</value>
+			</li>
+			<li Class="PatchOperationInsert">
+				<xpath>Defs/DutyDef[defName="BI_MegascarabDuty"]/thinkNode/subNodes/li[@Class="ThinkNode_ChancePerHour_Constant"]</xpath>
+				<value>
+					<li Class="rjw.JobGiver_RapeEnemy" />
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

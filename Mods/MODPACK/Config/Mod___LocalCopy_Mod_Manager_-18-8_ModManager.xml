@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="ModManager.ModManagerSettings">
+		<ModAttributes>
+			<li>
+				<Identifier>__LocalCopy_ModCheck_-18-8</Identifier>
+				<SourceMod>1544705976</SourceMod>
+				<SourceHash>fc4166c3a8e81969e53d098b38543517</SourceHash>
+			</li>
+			<li>
+				<Identifier>__LocalCopy_Terra_Project_-18-8</Identifier>
+				<SourceMod>1598637926</SourceMod>
+				<SourceHash>181f8528261a8fda62d9b3b3bbabdd59</SourceHash>
+			</li>
+			<li>
+				<Identifier>__LocalCopy_Multiplayer_Compatibility_-18-8</Identifier>
+				<SourceMod>1629973374</SourceMod>
+				<SourceHash>0585e92f66b3bb5c0d7842ff43e4e4f9</SourceHash>
+			</li>
+			<li>
+				<Identifier>__LocalCopy_HugsLib_-18-8</Identifier>
+				<SourceMod>818773962</SourceMod>
+				<SourceHash>177db0d3173c9bc11373f5f3b53e4f93</SourceHash>
+			</li>
+			<li>
+				<Identifier>__LocalCopy_JecsTools_-18-8</Identifier>
+				<SourceMod>932008009</SourceMod>
+				<SourceHash>ac489ae21b70d48956448ffde39ebb85</SourceHash>
+			</li>
+			<li>
+				<Identifier>__LocalCopy_Biomes_2_Core_-18-8</Identifier>
+				<SourceMod>1288714774</SourceMod>
+				<SourceHash>6f95e645da1b60fabd3ad17964addae2</SourceHash>
+			</li>
+			<li>
+				<Identifier>__LocalCopy_DEVRIMMSqol_-18-8</Identifier>
+				<SourceMod>1211432379</SourceMod>
+				<SourceHash>fc9a073d1481ef37ea28ec716b67245c</SourceHash>
+			</li>
+			<li>
+				<Identifier>__LocalCopy_RIMMSLoadUp_-18-8</Identifier>
+				<SourceMod>1686660152</SourceMod>
+				<SourceHash>543f9c22d79bdeb34d6f027e1c4f2161</SourceHash>
+			</li>
+			<li>
+				<Identifier>__LocalCopy_RIMMSqol_-18-8</Identifier>
+				<SourceMod>1084452457</SourceMod>
+				<SourceHash>8a20652f0507ed63ac37e1c957bbc8a7</SourceHash>
+			</li>
+			<li>
+				<Identifier>__LocalCopy_Humanoid_Alien_Races_2_0_-18-8</Identifier>
+				<SourceMod>839005762</SourceMod>
+				<SourceHash>c0f045794c6800a1f1738dcc14de2d82</SourceHash>
+			</li>
+		</ModAttributes>
+		<ButtonAttributes />
+		<ShowPromotions_NotActive>True</ShowPromotions_NotActive>
+	</ModSettings>
+</SettingsBlock>

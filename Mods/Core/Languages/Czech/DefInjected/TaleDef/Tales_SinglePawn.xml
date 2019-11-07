@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: raw humanlike meat eaten -->
+  <AteRawHumanlikeMeat.label>konzumace lidského masa</AteRawHumanlikeMeat.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s eating of human meat</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] the meat of a fellow humanoid [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] meat from a humanlike arm [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [eat_gerund] flesh of a humanoid [circumstance_group]</li>
+    <li>eat_gerund->eating</li>
+    <li>eat_gerund->ingesting</li>
+    <li>eat_gerund->chewing</li>
+    <li>eat_gerund->chowing down on</li>
+    <li>eat_gerund->consuming</li>
+    <li>eat_gerund->swallowing</li>
+    <li>eat_gerund->cannibalizing</li>
+    <li>circumstance_phrase->with a sense of purpose</li>
+    <li>circumstance_phrase->with no hint of shame</li>
+    <li>circumstance_phrase->with a look of shame</li>
+    <li>circumstance_phrase->while others look on</li>
+    <li>circumstance_phrase->with gusto</li>
+    <li>circumstance_phrase->frantically, like [PAWN_possessive] life depended on it</li>
+    <li>desc_sentence->[PAWN_nameDef]'s face is covered with blood and fluid.</li>
+    <li>desc_sentence->[PAWN_nameDef] is licking [PAWN_possessive] fingers.</li>
+    <li>desc_sentence->[PAWN_nameDef] has blood and gore bits all down [PAWN_possessive] front.</li>
+    <li>desc_sentence->[PAWN_nameDef] is in the middle of a large pool of blood.</li>
+    <li>desc_sentence->[PAWN_nameDef] is eyeing someone else nearby with dark interest.</li>
+    <li>desc_sentence->The meat is glistening and appears very succulent.</li>
+    <li>desc_sentence->The meat is spilling all over [PAWN_nameDef]'s body.</li>
+  -->
+  <AteRawHumanlikeMeat.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] jedl[PAWN_pronoun] lidské maso</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] [circumstance_group]</li>
+    <li>eat_gerund->jí</li>
+    <li>eat_gerund->požírá</li>
+    <li>eat_gerund->žvýká</li>
+    <li>eat_gerund->baští</li>
+    <li>eat_gerund->konzumuje</li>
+    <li>eat_gerund->polyká</li>
+    <li>eat_gerund->žere</li>
+    <li>anyAteRawHumanlikeMeat->maso lidského společníka</li>
+    <li>anyAteRawHumanlikeMeat->maso z lidské ruky</li>
+    <li>anyAteRawHumanlikeMeat->lidské maso</li>
+    <li>circumstance_phrase->cílevědomě [eat_gerund] [anyAteRawHumanlikeMeat]</li>
+    <li>circumstance_phrase->nestydatě [eat_gerund] [anyAteRawHumanlikeMeat]</li>
+    <li>circumstance_phrase->s výrazem studu [eat_gerund] [anyAteRawHumanlikeMeat]</li>
+    <li>circumstance_phrase->[eat_gerund] [anyAteRawHumanlikeMeat], čemuž ostatní pohoršeně přihlíží</li>
+    <li>circumstance_phrase->s velkou chutí [eat_gerund] [anyAteRawHumanlikeMeat]</li>
+    <li>circumstance_phrase->zběsile [eat_gerund] [anyAteRawHumanlikeMeat], jako by na tom závisel [PAWN_possessive] život</li>
+    <li>desc_sentence->Na obličeji má kromě krve i další neurčitou tekutinu.</li>
+    <li>desc_sentence->Přitom si olizuje své prsty.</li>
+    <li>desc_sentence->Zepředu na těle má skvrny od krve i se zbytky masa.</li>
+    <li>desc_sentence->Sedí přímo uprostřed velké krvavé louže.</li>
+    <li>desc_sentence->Zdá se, že s temnými úmysly sleduje někoho dalšího.</li>
+    <li>desc_sentence->Maso se leskne a vypadá velmi šťavnatě.</li>
+    <li>desc_sentence->Po celém těle má kousky masa.</li>
+  </AteRawHumanlikeMeat.rulePack.rulesStrings>
+  
+  <!-- EN: humanlike corpse butchered -->
+  <ButcheredHumanlikeCorpse.label>kuchání lidské mrtvoly</ButcheredHumanlikeCorpse.label>
+  
+  <!-- EN: art crafted -->
+  <CraftedArt.label>vytvoření díla</CraftedArt.label>
+  <!-- EN:
+    <li>tale_noun->the time [PAWN_nameDef] crafted [THING_indefinite]</li>
+    <li>image->[PAWN_nameFull] crafting [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] completing [PAWN_possessive] work on [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] working on [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>image->[PAWN_nameFull] making [THING_indefinite] [circumstance_group]. [quality_sentence]. [title_sentence]</li>
+    <li>circumstance_phrase->with total concentration</li>
+    <li>circumstance_phrase->with a look of satisfaction on [PAWN_possessive] face</li>
+    <li>circumstance_phrase->at [PAWN_possessive] work bench</li>
+    <li>circumstance_phrase->with great intensity</li>
+    <li>desc_sentence->There are tools scattered all around.</li>
+    <li>desc_sentence->[PAWN_pronoun] is scratched and scarred from work injuries.</li>
+    <li>desc_sentence->[PAWN_pronoun] is covered in sweat.</li>
+    <li>desc_sentence->The work area is highly organized, with every tool in its proper place.</li>
+    <li>desc_sentence->[PAWN_pronoun] is rendered in an exaggerated way to appear more powerful.</li>
+    <li>desc_sentence->The size of [THING_definite] is exaggerated to emphasize its importance.</li>
+    <li>desc_sentence->[THING_definite] has an artistic glow added to it. It seems almost angelic.</li>
+    <li>desc_sentence->[PAWN_nameDef] is faded into the background to emphasize [PAWN_possessive] new creation.</li>
+    <li>desc_sentence->[Quantity_adjphrase] onlookers surround [PAWN_objective].</li>
+    <li>desc_sentence->A crowd cheers from the background.</li>
+    <li>quality_sentence->[THING_definite] looks to be of [THING_quality] quality</li>
+    <li>quality_sentence->[THING_definite] is of [THING_quality] quality</li>
+    <li>quality_sentence->[PAWN_nameDef]'s work is of [THING_quality] quality</li>
+    <li>title_sentence->[PAWN_nameDef]'s title for [THING_definite] is written underneath: [THING_title]</li>
+    <li>title_sentence->[THING_definite] is emblazoned with its title: [THING_title]</li>
+    <li>title_sentence->The title of [THING_definite], [THING_title], hangs in the background</li>
+  -->
+  <CraftedArt.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] vytvořil[PAWN_pronoun] umělecké dílo ([THING_indefinite])</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] [circumstance_group]. Výsledkem je [THING_indefinite]. [quality_sentence]. [title_sentence]</li>
+    <li>anyCraftedArt->něco tvoří</li>
+    <li>anyCraftedArt->dokončuje své dílo</li>
+    <li>anyCraftedArt->na něčem pracuje</li>
+    <li>anyCraftedArt->něco vyrábí</li>
+    <li>circumstance_phrase->s maximálním soustředěním [anyCraftedArt]</li>
+    <li>circumstance_phrase->se spokojeným výrazem ve své tváři [anyCraftedArt]</li>
+    <li>circumstance_phrase->[anyCraftedArt] na svém pracovním stole</li>
+    <li>circumstance_phrase->s velkým úsilím [anyCraftedArt]</li>
+    <li>desc_sentence->Všude kolem jsou poházené různé nástroje.</li>
+    <li>desc_sentence->[PAWN_nameDef] má různě po těle škrábance a jizvy od pracovních úrazů.</li>
+    <li>desc_sentence->[PAWN_nameDef] má na svém těle skvrny od potu.</li>
+    <li>desc_sentence->Své pracoviště má [PAWN_nameDef] skvěle organizované. Každý [PAWN_possessive] nástroj leží na svém místě.</li>
+    <li>desc_sentence->[PAWN_nameDef] je znázorněn[PAWN_pronoun] dost přehnaným způsobem tak, aby vypadal[PAWN_pronoun] silnější.</li>
+    <li>desc_sentence->[THING_definite] má až přehnaně velké rozměry. Nejspíš kvůli zdůraznění své důležitosti.</li>
+    <li>desc_sentence->Přidáním umělecké záře dostává [THING_definite] téměř andělský vzhled.</li>
+    <li>desc_sentence->[PAWN_nameDef] se ztrácí v pozadí, aby byl zdůrazněn [PAWN_possessive] nový výtvor.</li>
+    <li>desc_sentence->[PAWN_nameDef] je v obklopení [Quantity_adjphraseGen] diváků.</li>
+    <li>desc_sentence->V pozadí fandí dav lidí.</li>
+    <li>quality_sentence->Zdá se, že kvalita výsledné práce je [THING_quality]</li>
+    <li>quality_sentence->Kvalita tohoto díla je [THING_quality]</li>
+    <li>quality_sentence->Kvalita [PAWN_possessive] práce je [THING_quality]</li>
+    <li>title_sentence->Název '[THING_title]', který [PAWN_nameDef] navrhl[PAWN_pronoun], je vespod díla</li>
+    <li>title_sentence->[THING_definite] nese zdobený text, který zní '[THING_title]'</li>
+    <li>title_sentence->Název '[THING_title]', kterým se [THING_definite] pyšní, visí na pozadí</li>
+  </CraftedArt.rulePack.rulesStrings>
+  
+  <!-- EN: drunk -->
+  <Drunk.label>opilost</Drunk.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s extreme drunkenness</li>
+    <li>tale_noun->[PAWN_nameDef] getting extremely drunk</li>
+    <li>image->[PAWN_nameFull] staggering around drunk [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] tilting [PAWN_possessive] head back and guzzling liquor [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] greedily collecting bottles of liquor [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] drinking heavily [circumstance_group]</li>
+    <li>circumstance_phrase->oblivious to [PAWN_possessive] surroundings</li>
+    <li>circumstance_phrase->in a brooding stupor</li>
+    <li>circumstance_phrase->while questioning [PAWN_possessive] own existence</li>
+    <li>circumstance_phrase->with tears in [PAWN_possessive] eyes</li>
+    <li>circumstance_phrase->while chuckling madly</li>
+    <li>circumstance_phrase->while sobbing</li>
+    <li>circumstance_phrase->while looking pathetic</li>
+    <li>circumstance_phrase->while glaring angrily at people around [PAWN_objective]</li>
+    <li>circumstance_phrase->while leering at someone nearby</li>
+    <li>circumstance_phrase->while attempting to disrobe</li>
+    <li>circumstance_phrase->with a finger in [PAWN_possessive] mouth</li>
+    <li>circumstance_phrase->while holding back vomit</li>
+    <li>circumstance_phrase->without a care in the world</li>
+    <li>circumstance_phrase->with a lustful glint in [PAWN_possessive] eye</li>
+    <li>circumstance_phrase->while reviewing the ghosts of [PAWN_possessive] past</li>
+    <li>desc_sentence->[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_possessive] face itself seems to be swelling.</li>
+    <li>desc_sentence->[PAWN_pronoun] is nearly unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
+    <li>desc_sentence->[PAWN_pronoun] looks happy and sad at the same time.</li>
+    <li>desc_sentence->[PAWN_pronoun] has stains down [PAWN_possessive] front.</li>
+    <li>desc_sentence->There is a trail of discarded beverage containers behind [PAWN_objective].</li>
+    <li>desc_sentence->There is a white substance on [PAWN_possessive] pants.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to have lost a shoe.</li>
+    <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
+  -->
+  <Drunk.rulePack.rulesStrings>
+    <li>tale_noun->se [PAWN_nameDef] extrémně opil[PAWN_pronoun]</li>
+    <li>tale_noun->se [PAWN_nameDef] ožral[PAWN_pronoun]</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] [circumstance_group]</li>
+    <li>anyDrunk->vrávorá v opilosti po okolí</li>
+    <li>anyDrunk->naklání svou hlavu a hltá kořalku</li>
+    <li>anyDrunk->nenasytně sbírá lahve s alkoholem</li>
+    <li>anyDrunk->intenzivně chlastá alkohol</li>
+    <li>circumstance_phrase->[anyDrunk], aniž by vnímal[PAWN_pronoun] své okolí</li>
+    <li>circumstance_phrase->s otupělými smysly [anyDrunk]</li>
+    <li>circumstance_phrase->[anyDrunk], zatímco si pokládá otázky o své vlastní existenci</li>
+    <li>circumstance_phrase->se slzami v očích [anyDrunk]</li>
+    <li>circumstance_phrase->[anyDrunk], zatímco se bláznivě chichotá</li>
+    <li>circumstance_phrase->[anyDrunk], zatímco vzlyká</li>
+    <li>circumstance_phrase->se žalostným pohledem [anyDrunk]</li>
+    <li>circumstance_phrase->[anyDrunk], zatímco vztekle zírá na lidi kolem sebe</li>
+    <li>circumstance_phrase->[anyDrunk], zatímco pošilhává na někoho poblíž</li>
+    <li>circumstance_phrase->[anyDrunk], a přitom se snaží svléknout</li>
+    <li>circumstance_phrase->s prstem ve své hubě [anyDrunk]</li>
+    <li>circumstance_phrase->[anyDrunk], zatímco se pokouší zabránit zvracení</li>
+    <li>circumstance_phrase->bez náznaku trápení [anyDrunk]</li>
+    <li>circumstance_phrase->s dychtivým pohledem [anyDrunk]</li>
+    <li>circumstance_phrase->[anyDrunk], zatímco přehodnocuje své chyby z minulosti</li>
+    <li>desc_sentence->Zdá se, že vůbec netuší, co se děje kolem.</li>
+    <li>desc_sentence->[PAWN_possessive] tváře se zdají být zvětšené.</li>
+    <li>desc_sentence->[PAWN_nameDef] má blízko ke stavu bezvědomí. Z [PAWN_possessive] pusy visí slintající jazyk.</li>
+    <li>desc_sentence->Zdá se, že vypadá šťastně i smutně zároveň.</li>
+    <li>desc_sentence->Zepředu na těle má skvrny.</li>
+    <li>desc_sentence->Za sebou má dlouhou stezku prázdných lahví od alkoholu.</li>
+    <li>desc_sentence->Na svých kalhotách má neurčitou bílou látku.</li>
+    <li>desc_sentence->Zdá se, že ztratil[PAWN_pronoun] jednu botu.</li>
+    <li>desc_sentence->[PAWN_possessive] vlasy jsou úplně rozcuchané.</li>
+  </Drunk.rulePack.rulesStrings>
+  
+  <!-- EN: research project finished -->
+  <FinishedResearchProject.label>dokončení výzkumného projektu</FinishedResearchProject.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] finishing research on [PROJECT_label]</li>
+    <li>image->[PAWN_nameFull] working on [PROJECT_label] research project [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] studying the secrets of [PROJECT_label] [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] researching [PROJECT_label] [circumstance_group]</li>
+    <li>circumstance_phrase->with great intensity</li>
+    <li>circumstance_phrase->alone at [PAWN_possessive] bench</li>
+    <li>circumstance_phrase->while holding papers in [PAWN_possessive] hand</li>
+    <li>circumstance_phrase->with a look of gleeful fascination</li>
+    <li>desc_sentence->[PAWN_nameDef] is sweating.</li>
+    <li>desc_sentence->The work appears to be exceptionally complex.</li>
+    <li>desc_sentence->[PAWN_nameDef] is completely surrounded by an array of tools and apparatuses.</li>
+    <li>desc_sentence->[PAWN_nameDef] is staring at [PAWN_possessive] discovery with a sense of wonder.</li>
+  -->
+  <FinishedResearchProject.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] dokončil[PAWN_pronoun] výzkum ([PROJECT_label])</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] [circumstance_group] pracuje na výzkumném projektu '[PROJECT_label]'</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] [circumstance_group] odhaluje skrytá tajemství projektu '[PROJECT_label]'</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] [circumstance_group] zkoumá projekt '[PROJECT_label]'</li>
+    <li>circumstance_phrase->s velkým úsilím</li>
+    <li>circumstance_phrase->na svém stole</li>
+    <li>circumstance_phrase->drží papíry ve svých rukou a přitom</li>
+    <li>circumstance_phrase->s výrazem škodolibé radosti</li>
+    <li>desc_sentence->Při tom přemýšlení se potí.</li>
+    <li>desc_sentence->Práce na výzkumu se jeví jako velmi složitá.</li>
+    <li>desc_sentence->[PAWN_nameDef] je zcela obklopen[PAWN_pronoun] řadou nástrojů a přístrojů.</li>
+    <li>desc_sentence->[PAWN_nameDef] zírá na svůj objev s velkým úžasem.</li>
+  </FinishedResearchProject.rulePack.rulesStrings>
+  
+  <!-- EN: landed in pod -->
+  <LandedInPod.label>přistál v modulu</LandedInPod.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s landing in a drop pod</li>
+    <li>image->[PAWN_nameFull] landing in a drop pod [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] touching down in a drop pod [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] striking earth in a drop pod [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] riding in a drop pod [circumstance_group]</li>
+    <li>circumstance_phrase->in front of a [TerrainFeature]</li>
+    <li>circumstance_phrase->with incredible force</li>
+    <li>circumstance_phrase->in a plume of dust and rocks</li>
+    <li>circumstance_phrase->with retro-rockets firing dramatically</li>
+    <li>circumstance_phrase->in a precision landing</li>
+    <li>desc_sentence->[PAWN_pronoun] is concentrating intently on the controls.</li>
+    <li>desc_sentence->[PAWN_pronoun] has [PAWN_possessive] eyes closed and looks afraid.</li>
+    <li>desc_sentence->[PAWN_pronoun] is unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
+    <li>desc_sentence->[PAWN_pronoun] is smiling with grim joy.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to have no idea what [PAWN_pronoun] is doing.</li>
+    <li>desc_sentence->[PAWN_pronoun] is strapped in with [PAWN_possessive] eyes closed, totally helpless.</li>
+    <li>desc_sentence->There is a flame trail licking off the back of the pod.</li>
+    <li>desc_sentence->A nearby [Animal] is looking up, startled.</li>
+    <li>desc_sentence->A [Animal] is fleeing the impact in fear.</li>
+    <li>desc_sentence->There is a [TerrainFeature] in the background.</li>
+    <li>desc_sentence->A [PersonJob] watches silently from afar.</li>
+  -->
+  <LandedInPod.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] přistál[PAWN_pronoun] se svým únikovým modulem</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] [circumstance_group]</li>
+    <li>anyLandedInPod->přistává se svým únikovým modulem</li>
+    <li>anyLandedInPod->dosedá k zemi se svým únikovým modulem</li>
+    <li>anyLandedInPod->naráží do země se svým únikovým modulem</li>
+    <li>anyLandedInPod->letí k zemi se svým únikovým modulem</li>
+    <li>circumstance_phrase->[anyLandedInPod] přímo před [TerrainFeatureUniAcc]</li>
+    <li>circumstance_phrase->s neuvěřitelnou silou [anyLandedInPod]</li>
+    <li>circumstance_phrase->[anyLandedInPod] za současného rozvíření prachu a kamení</li>
+    <li>circumstance_phrase->[anyLandedInPod], z jehož retro-motorů dramaticky šlehají plameny</li>
+    <li>circumstance_phrase->s výtečnou přesností [anyLandedInPod]</li>
+    <li>desc_sentence->Přitom se pozorně soustředí na ovládací prvky modulu.</li>
+    <li>desc_sentence->Přitom má zavřené oči a vypadá vystrašeně.</li>
+    <li>desc_sentence->Zdá se, že je [PAWN_nameDef] v bezvědomí, neboť z [PAWN_possessive] pusy visí slintající jazyk.</li>
+    <li>desc_sentence->Ačkoliv se [PAWN_nameDef] usmívá, má chmurnou náladu.</li>
+    <li>desc_sentence->Zdá se, že [PAWN_nameDef] vůbec netuší, co dělá.</li>
+    <li>desc_sentence->Naprosto bezmocně sedí připoután[PAWN_pronoun] v sedačce a má zavřené oči.</li>
+    <li>desc_sentence->Za zádí modulu se táhne dlouhá ohnivá stopa.</li>
+    <li>desc_sentence->Na padající objekt vyděšeně civí [AnimalUniNom].</li>
+    <li>desc_sentence->Od místa dopadu se ze strachu snaží prchnout [AnimalUniNom].</li>
+    <li>desc_sentence->V pozadí je vidět [TerrainFeatureUniNom].</li>
+    <li>desc_sentence->Vše z dálky v tichosti pozoruje [PersonJobUniNom].</li>
+  </LandedInPod.rulePack.rulesStrings>
+  
+  <!-- EN: berserk rage -->
+  <MentalStateBerserk.label>zuřivé běsnění</MentalStateBerserk.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] going berserk</li>
+    <li>image->[PAWN_nameFull] flying into a berserk rage [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] becoming madly, violently insane [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] stumbling forward with a psychotic look on [PAWN_possessive] face [circumstance_group]</li>
+    <li>circumstance_phrase->while attempting to disrobe</li>
+    <li>circumstance_phrase->seemingly without reason</li>
+    <li>circumstance_phrase->as others cower in fear</li>
+    <li>circumstance_phrase->as a friend flees</li>
+    <li>circumstance_phrase->because of the stress</li>
+    <li>circumstance_phrase->as a last step</li>
+    <li>desc_sentence->[PAWN_pronoun] is shaking with ungovernable rage.</li>
+    <li>desc_sentence->[PAWN_possessive] teeth are bared in a deadly snarl.</li>
+    <li>desc_sentence->[PAWN_possessive] eyes are dead pools of madness.</li>
+    <li>desc_sentence->Spittle is flying from [PAWN_possessive] mouth as [PAWN_possessive] screams with insane rage.</li>
+    <li>desc_sentence->[PAWN_pronoun] has lost part of [PAWN_possessive] clothing.</li>
+    <li>desc_sentence->[PAWN_pronoun] is grimacing in misery.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems smiling maniacally.</li>
+    <li>desc_sentence->[PAWN_pronoun] is depicted with the snarling face of a [Animal].</li>
+    <li>desc_sentence->[Animal]s symbolically surround [PAWN_possessive] head.</li>
+    <li>desc_sentence->[PAWN_pronoun] has a murderous glint in [PAWN_possessive] eye.</li>
+    <li>desc_sentence->[PAWN_possessive] entire body seems to be trembling with hatred.</li>
+    <li>desc_sentence->[PAWN_possessive] face is set in a look of twisted serenity.</li>
+    <li>desc_sentence->A single tear rolls down [PAWN_possessive] face.</li>
+  -->
+  <MentalStateBerserk.rulePack.rulesStrings>
+    <li>tale_noun->se [PAWN_nameDef] rozzuřil[PAWN_pronoun]</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] [circumstance_group]</li>
+    <li>anyMentalStateBerserk->upadá do stavu zuřivosti</li>
+    <li>anyMentalStateBerserk->šílí a začíná být velmi agresivní</li>
+    <li>anyMentalStateBerserk->postupuje s psychotickým výrazem vpřed</li>
+    <li>circumstance_phrase->, zatímco se pokouší strhnout ze sebe oblečení, [anyMentalStateBerserk]</li>
+    <li>circumstance_phrase->zdánlivě bez důvodu [anyMentalStateBerserk]</li>
+    <li>circumstance_phrase->[anyMentalStateBerserk]. Ostatní jsou ze strachu skrčení</li>
+    <li>circumstance_phrase->[anyMentalStateBerserk], jelikož [PAWN_objective] opustil [PAWN_possessive] přítel</li>
+    <li>circumstance_phrase->kvůli stresu [anyMentalStateBerserk]</li>
+    <li>circumstance_phrase->[anyMentalStateBerserk], neboť už toho má opravdu dost</li>
+    <li>desc_sentence->Kvůli nekontrolovatelnému vzteku se [PAWN_nameDef] třese.</li>
+    <li>desc_sentence->[PAWN_possessive] vyceněné zuby představují hrozivé vrčení.</li>
+    <li>desc_sentence->[PAWN_possessive] oči jsou jako mrtvé tůně plné šílenství.</li>
+    <li>desc_sentence->Tím jak zuřivě křičí, tak z [PAWN_possessive] huby létají sliny.</li>
+    <li>desc_sentence->[PAWN_nameDef] část svého oblečení ztratil[PAWN_pronoun].</li>
+    <li>desc_sentence->[PAWN_nameDef] se navíc tváří utrápeně.</li>
+    <li>desc_sentence->[PAWN_nameDef] se maniakálně usmívá jako nějaký šílenec.</li>
+    <li>desc_sentence->[PAWN_nameDef] je vykreslena s tváří vrčící[AnimalGen_AnyAdjective].</li>
+    <li>desc_sentence->[PAWN_possessive] hlavu symbolicky obklopují [AnimalPluNom].</li>
+    <li>desc_sentence->V očích má vražedný pohled.</li>
+    <li>desc_sentence->Zdá se, že celé [PAWN_possessive] tělo se nenávistí chvěje.</li>
+    <li>desc_sentence->Výraz [PAWN_possessive] tváře představuje zvrácený klid.</li>
+    <li>desc_sentence->Po [PAWN_possessive] tváři stéká jediná slza.</li>
+  </MentalStateBerserk.rulePack.rulesStrings>
+  
+  <!-- EN: gave up -->
+  <MentalStateGaveUp.label>vzdal to</MentalStateGaveUp.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] giving up in despair</li>
+    <li>image->[PAWN_nameFull] finally giving up under stress [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] sobbing uncontrollably [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] stumbling around with a completely broken expression on [PAWN_possessive] face [circumstance_group]</li>
+    <li>circumstance_phrase->while attempting to disrobe</li>
+    <li>circumstance_phrase->seemingly without reason</li>
+    <li>circumstance_phrase->as others offer sympathy</li>
+    <li>circumstance_phrase->as a friend cries</li>
+    <li>circumstance_phrase->because of the stress</li>
+    <li>circumstance_phrase->as a last step</li>
+    <li>desc_sentence->[PAWN_pronoun] has tears streaming down [PAWN_possessive] face.</li>
+    <li>desc_sentence->[PAWN_pronoun] is laughing in the depths of [PAWN_possessive] depression.</li>
+    <li>desc_sentence->[PAWN_nameDef] is looking upward, as if to ask for help from above.</li>
+    <li>desc_sentence->[PAWN_pronoun] is tearing at [PAWN_possessive] own clothes.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_pronoun] looks happy and sad at the same time.</li>
+    <li>desc_sentence->[PAWN_pronoun] has stains down [PAWN_possessive] front.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to have lost a shoe.</li>
+    <li>desc_sentence->[PAWN_possessive] hair is totally mussed up.</li>
+  -->
+  <MentalStateGaveUp.rulePack.rulesStrings>
+    <li>tale_noun->to [PAWN_nameDef] ze zoufalství vzdal[PAWN_pronoun]</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] [circumstance_group]</li>
+    <li>anyMentalStateGaveUp->definitivně ustupuje velkému tlaku</li>
+    <li>anyMentalStateGaveUp->nekontrolovatelně vzlyká</li>
+    <li>anyMentalStateGaveUp->klopýtá v kruhu s naprosto bolestným výrazem ve své tváři</li>
+    <li>circumstance_phrase->[anyMentalStateGaveUp]. Přitom se snaží svléknout</li>
+    <li>circumstance_phrase->zdánlivě bez důvodu [anyMentalStateGaveUp]</li>
+    <li>circumstance_phrase->[anyMentalStateGaveUp], zatímco jiní vyjadřují soucit</li>
+    <li>circumstance_phrase->[anyMentalStateGaveUp], zatímco [PAWN_possessive] přítel pláče</li>
+    <li>circumstance_phrase->kvůli stresu [anyMentalStateGaveUp]</li>
+    <li>circumstance_phrase->[anyMentalStateGaveUp], neboť už toho má opravdu dost</li>
+    <li>desc_sentence->Po [PAWN_possessive] tváři stékají slzy.</li>
+    <li>desc_sentence->Z hysterického smíchu lze usoudit, že [PAWN_objective] deprese dostaly na absolutní dno.</li>
+    <li>desc_sentence->[PAWN_nameDef] hledí vzhůru, jako by někoho ze shora žádal[PAWN_pronoun] o pomoc.</li>
+    <li>desc_sentence->[PAWN_nameDef] si trhá vlastní oblečení.</li>
+    <li>desc_sentence->Zdá se, že vůbec netuší, co se děje kolem.</li>
+    <li>desc_sentence->Zdá se, že vypadá šťastně i smutně zároveň.</li>
+    <li>desc_sentence->Zepředu na těle má skvrny.</li>
+    <li>desc_sentence->Zdá se, že ztratil[PAWN_pronoun] jednu botu.</li>
+    <li>desc_sentence->[PAWN_possessive] vlasy jsou úplně rozcuchané.</li>
+  </MentalStateGaveUp.rulePack.rulesStrings>
+  
+  <!-- EN: struck mineable -->
+  <StruckMineable.label>narazil na nerostné bohatství</StruckMineable.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] striking [THING_label]</li>
+    <li>image->[PAWN_nameFull] striking [THING_label] [circumstance_group]</li>
+    <li>circumstance_phrase->while mining</li>
+    <li>circumstance_phrase->while digging</li>
+    <li>circumstance_phrase->while tunnelling</li>
+    <li>circumstance_phrase->with a look of surprise</li>
+    <li>circumstance_phrase->with a satisfied expression</li>
+    <li>desc_sentence->[PAWN_nameDef] is wiping [PAWN_possessive] brow.</li>
+    <li>desc_sentence->[PAWN_nameDef] is jumping for joy.</li>
+    <li>desc_sentence->[PAWN_nameDef] is high-fiving a friend.</li>
+    <li>desc_sentence->[PAWN_nameDef] is screaming with happiness.</li>
+    <li>desc_sentence->[PAWN_nameDef] is laughing uncontrollably.</li>
+    <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
+    <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
+  -->
+  <StruckMineable.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] narazil[PAWN_pronoun] na nerostné bohatství ([THING_label])</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] [circumstance_group] odhaluje zdroj surovin ([THING_label])</li>
+    <li>circumstance_phrase->během těžby</li>
+    <li>circumstance_phrase->během kopání</li>
+    <li>circumstance_phrase->během ražení tunelu</li>
+    <li>circumstance_phrase->s výrazem překvapení</li>
+    <li>circumstance_phrase->s výrazem spokojenosti</li>
+    <li>desc_sentence->[PAWN_nameDef] si utírá čelo.</li>
+    <li>desc_sentence->[PAWN_nameDef] skáče radostí.</li>
+    <li>desc_sentence->[PAWN_nameDef] má zvednutou ruku stejně jako [PAWN_possessive] parťák, jako by si chtěli plácnout.</li>
+    <li>desc_sentence->[PAWN_nameDef] křičí štěstím.</li>
+    <li>desc_sentence->[PAWN_nameDef] se nekontrolovatelně směje.</li>
+    <li>desc_sentence->[PAWN_possessive] oblečení je úplně propocené a zašpiněné od práce.</li>
+    <li>desc_sentence->Od práce má propocené a špinavé celé tělo.</li>
+  </StruckMineable.rulePack.rulesStrings>
+  
+  <!-- EN: vomited -->
+  <Vomited.label>zvracel</Vomited.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef]'s vomiting</li>
+    <li>image->[PAWN_nameFull] spewing vomit onto the ground [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] looking disgusted while covered with dried vomit [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] doubled over and retching onto the floor [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] on [PAWN_possessive] knees, vomiting on the floor [circumstance_group]</li>
+    <li>circumstance_phrase->while looking pained</li>
+    <li>circumstance_phrase->with great shame</li>
+    <li>circumstance_phrase->as others look on</li>
+    <li>desc_sentence->[PAWN_pronoun] seems totally unaware of what is around [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_possessive] face itself seems to be swelling.</li>
+    <li>desc_sentence->[PAWN_pronoun] is nearly unconscious, [PAWN_possessive] tongue lolling out, drool dripping.</li>
+    <li>desc_sentence->[PAWN_pronoun] is convulsing violently.</li>
+    <li>desc_sentence->[PAWN_pronoun] looks ashamed.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to be trying to laugh, despite the circumstances.</li>
+    <li>desc_sentence->[PAWN_pronoun] looks almost deflated, as though totally emptied by the intense vomiting.</li>
+    <li>desc_sentence->[PAWN_pronoun] is surrounded by an artistically rendered halo of filth.</li>
+    <li>desc_sentence->A [Animal] is eating from the trail of vomit in the background.</li>
+  -->
+  <Vomited.rulePack.rulesStrings>
+    <li>tale_noun->se [PAWN_nameDef] pozvracel[PAWN_pronoun]</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] chrlí zvratky na zem, přičemž trpí zjevnou bolestí</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] s velkým studem chrlí zvratky na zem</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] chrlí zvratky na zem, čemuž ostatní znechuceně přihlíží</li>
+    <li>imageNom_HasTale->se [PAWN_nameDef] tváří znechuceně, neboť má na sobě zaschlé zvratky. K tomu trpí zjevnou bolestí</li>
+    <li>imageNom_HasTale->se [PAWN_nameDef] tváří znechuceně, neboť má na sobě zaschlé zvratky. Za to se velmi stydí</li>
+    <li>imageNom_HasTale->se [PAWN_nameDef] tváří znechuceně, neboť má na sobě zaschlé zvratky. Ostatní [PAWN_objective] nevěřícně sledují</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] v předklonu zvrací na podlahu, přičemž trpí zjevnou bolestí</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] v předklonu zvrací na podlahu, za což se velmi stydí</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] v předklonu zvrací na podlahu, čemuž ostatní znechuceně přihlíží</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] klečí na kolenou a zvrací na podlahu, přičemž trpí zjevnou bolestí</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] s velkým studem klečí na kolenou a zvrací na podlahu</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] klečí na kolenou a zvrací na podlahu, čemuž ostatní znechuceně přihlíží</li>
+    <li>desc_sentence->Zdá se, že vůbec netuší, co se děje kolem.</li>
+    <li>desc_sentence->[PAWN_possessive] tváře se zdají být zvětšené.</li>
+    <li>desc_sentence->[PAWN_nameDef] má blízko ke stavu bezvědomí. Z [PAWN_possessive] pusy visí slintající jazyk.</li>
+    <li>desc_sentence->Zdá se, že [PAWN_objective] zmítají prudké křeče.</li>
+    <li>desc_sentence->[PAWN_nameDef] se cítí poníženě.</li>
+    <li>desc_sentence->Navzdory všem okolnostem se [PAWN_nameDef] snaží smát.</li>
+    <li>desc_sentence->[PAWN_nameDef] vypadá jako vyfouklý balón, jako by byl[PAWN_pronoun] z intenzivního zvracení zcela vyprázdněn[PAWN_pronoun].</li>
+    <li>desc_sentence->Umělecky [PAWN_objective] obklopuje svatozář ohavnosti.</li>
+    <li>desc_sentence->[AnimalUniNom] v pozadí žere utvořenou cestičku ze zvratků.</li>
+  </Vomited.rulePack.rulesStrings>
+  
+  <!-- EN: walked naked -->
+  <WalkedNaked.label>chodil nahý</WalkedNaked.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] walking around naked</li>
+    <li>image->[PAWN_nameFull] [nude_action] while in a state of nature [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action] in the nude [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action], naked, [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] [nude_action] without any clothes on [circumstance_group]</li>
+    <li>nude_action->prancing</li>
+    <li>nude_action->frolicking</li>
+    <li>nude_action->gambolling</li>
+    <li>nude_action->walking</li>
+    <li>nude_action->strutting [PAWN_possessive] stuff</li>
+    <li>nude_action->sashaying</li>
+    <li>nude_action->tiptoeing</li>
+    <li>nude_action->promenading</li>
+    <li>nude_action->surveying the area</li>
+    <li>circumstance_phrase->with a sense of purpose</li>
+    <li>circumstance_phrase->with no hint of shame</li>
+    <li>circumstance_phrase->while others look on</li>
+    <li>circumstance_phrase->for no apparent reason</li>
+    <li>circumstance_phrase->while confused animals look on</li>
+    <li>desc_sentence->[PAWN_nameDef] is visibly aroused.</li>
+    <li>desc_sentence->[PAWN_nameDef] is covered in unexplained moisture.</li>
+    <li>desc_sentence->[PAWN_nameDef] is breathing heavily for no obvious reason.</li>
+    <li>desc_sentence->[PAWN_nameDef] is fondling a shrub.</li>
+  -->
+  <WalkedNaked.rulePack.rulesStrings>
+    <li>tale_noun->se [PAWN_nameDef] obnaženě promenádoval[PAWN_pronoun] po okolí</li>
+    <li>imageNom_HasTale->[nude_action] tak, jak [PAWN_objective] příroda stvořila[circumstance_group]</li>
+    <li>imageNom_HasTale->[nude_action] v úplné nahotě[circumstance_group]</li>
+    <li>imageNom_HasTale->[nude_action] jako naháč[PAWN_pronoun][circumstance_group]</li>
+    <li>imageNom_HasTale->[nude_action] bez jediného kousku oblečení[circumstance_group]</li>
+    <li>nude_action->[PAWN_nameDef] poskakuje</li>
+    <li>nude_action->[PAWN_nameDef] skotačí</li>
+    <li>nude_action->[PAWN_nameDef] dovádí</li>
+    <li>nude_action->[PAWN_nameDef] chodí</li>
+    <li>nude_action->si [PAWN_nameDef] vykračuje</li>
+    <li>nude_action->si [PAWN_nameDef] našlapuje</li>
+    <li>nude_action->[PAWN_nameDef] chodí po špičkách</li>
+    <li>nude_action->se [PAWN_nameDef] promenáduje</li>
+    <li>nude_action->se [PAWN_nameDef] prochází po okolí</li>
+    <li>circumstance_phrase->. Zjevně to dělá záměrně</li>
+    <li>circumstance_phrase->. Zjevně se vůbec nestydí</li>
+    <li>circumstance_phrase->, čemuž ostatní nechápavě přihlíží</li>
+    <li>circumstance_phrase->, aniž by k tomu měl[PAWN_pronoun] sebemenší důvod</li>
+    <li>circumstance_phrase->, čemuž zmateně přihlíží různá zvířata</li>
+    <li>desc_sentence->[PAWN_nameDef] oplývá viditelným vzrušením.</li>
+    <li>desc_sentence->[PAWN_nameDef] je pokryt[PAWN_pronoun] nevysvětlitelnou vlhkostí.</li>
+    <li>desc_sentence->[PAWN_nameDef] bez zjevné příčiny těžce dýchá.</li>
+    <li>desc_sentence->[PAWN_nameDef] si hladí houští.</li>
+  </WalkedNaked.rulePack.rulesStrings>
+  
+  <!-- EN: on fire -->
+  <WasOnFire.label>v plamenech</WasOnFire.label>
+  <!-- EN:
+    <li>tale_noun->[PAWN_nameDef] catching fire</li>
+    <li>image->[PAWN_nameFull] frantically beating out a fire attached to [PAWN_possessive] body [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] enveloped by flame [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] kneeling, hands over head, trying to extinguish flames on [PAWN_possessive] body [circumstance_group]</li>
+    <li>image->[PAWN_nameFull] rolling on the floor while burning [circumstance_group]</li>
+    <li>circumstance_phrase->while others look on</li>
+    <li>circumstance_phrase->while nearly naked</li>
+    <li>circumstance_phrase->with focused intent</li>
+    <li>desc_sentence->[PAWN_possessive] flesh is visibly charring.</li>
+    <li>desc_sentence->[PAWN_possessive] eyes are wide with panic.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to be barely conscious; [PAWN_possessive] eyes are lifeless.</li>
+    <li>desc_sentence->[PAWN_possessive] mouth is open as [PAWN_pronoun] screams for help.</li>
+    <li>desc_sentence->The flames are about to envelope his head.</li>
+    <li>desc_sentence->A symbolic halo of fire surrounds his face.</li>
+    <li>desc_sentence->[PAWN_pronoun] is laughing maniacally.</li>
+    <li>desc_sentence->[PAWN_pronoun] seems to be losing [PAWN_objective]self.</li>
+    <li>desc_sentence->A plume of smoke is rising off [PAWN_objective].</li>
+    <li>desc_sentence->[PAWN_pronoun] is rendered artistically in a corpse-like way.</li>
+  -->
+  <WasOnFire.rulePack.rulesStrings>
+    <li>tale_noun->[PAWN_nameDef] začal[PAWN_pronoun] hořet</li>
+    <li>imageNom_HasTale->[PAWN_nameDef] zoufale hasí plameny na svém těle[circumstance_group]</li>
+    <li>imageNom_HasTale->je [PAWN_nameDef] v obklopení plamenů[circumstance_group]</li>
+    <li>imageNom_HasTale->se klečící [PAWN_nameDef] pokouší vlastníma rukama uhasit plameny na svém těle[circumstance_group]</li>
+    <li>imageNom_HasTale->se [PAWN_nameDef] přetáčí na podlaze ve snaze uhasit na sobě plameny[circumstance_group]</li>
+    <li>circumstance_phrase->, zatímco ostatní [PAWN_objective] pouze sledují</li>
+    <li>circumstance_phrase->. Už na sobě nemá téměř žádné oblečení</li>
+    <li>circumstance_phrase->. Je to boj o vlastní přežití</li>
+    <li>desc_sentence->[PAWN_possessive] tělo je viditelně spálené.</li>
+    <li>desc_sentence->[PAWN_possessive] oči jsou vytřeštěné a plné hrůzy.</li>
+    <li>desc_sentence->Zdá se, že je sotva při vědomí. [PAWN_possessive] oči jsou jako bez života.</li>
+    <li>desc_sentence->[PAWN_possessive] pusa je otevřená, neboť křičí o pomoc.</li>
+    <li>desc_sentence->Plameny každou chvíli obklopí [PAWN_possessive] hlavu.</li>
+    <li>desc_sentence->[PAWN_possessive] tvář symbolicky obklopuje planoucí svatozář.</li>
+    <li>desc_sentence->[PAWN_nameDef] se maniakálně směje.</li>
+    <li>desc_sentence->Zdá se, že [PAWN_nameDef] přichází o své Já.</li>
+    <li>desc_sentence->Od hořícího těla stoupá dým.</li>
+    <li>desc_sentence->[PAWN_nameDef] je umělecky vykreslen[PAWN_pronoun] jako mtrvola po uhoření.</li>
+  </WasOnFire.rulePack.rulesStrings>
+  
+</LanguageData>

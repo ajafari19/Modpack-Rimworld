@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Natural Penises -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>Penis</defName>
+		<label>average penis</label>
+		<description>A severed penis. It's average size, and that's fine. Nothing wrong with that at all. Really, it's OK. There's no shame in being average. It's just... you know... just average.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.16</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>MicroPenis</defName>
+		<label>micro penis</label>
+		<description>A severed pinky. Uh, no wait...</description>
+		<statBases>
+			<MarketValue>25</MarketValue>
+			<Mass>0.09</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>SmallPenis</defName>
+		<label>small penis</label>
+		<description>A severed penis. It's rather small, so I hope you've got a great severed personality.</description>
+		<statBases>
+			<MarketValue>120</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>BigPenis</defName>
+		<label>big penis</label>
+		<description>A large severed penis.</description>
+		<statBases>
+			<MarketValue>330</MarketValue>
+			<Mass>0.19</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenMale">
+		<defName>HugePenis</defName>
+		<label>huge penis</label>
+		<description>A huge severed penis.</description>
+		<statBases>
+			<MarketValue>450</MarketValue>
+			<Mass>0.22</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Natural Vaginas -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenFemale">
+		<defName>Vagina</defName>
+		<label>average vagina</label>
+		<description>A severed vagina. Average size.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenFemale">
+		<defName>MicroVagina</defName>
+		<label>micro vagina</label>
+		<description>A severed micro vagina. Too small for anything.</description>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenFemale">
+		<defName>TightVagina</defName>
+		<label>tight vagina</label>
+		<description>A severed tight vagina. Tight for most penises.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenFemale">
+		<defName>LooseVagina</defName>
+		<label>loose vagina</label>
+		<description>A severed loose vagina. Most penises can slide inside it with ease.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseGenFemale">
+		<defName>GapingVagina</defName>
+		<label>gaping vagina</label>
+		<description>A severed gaping vagina. Sweet home for giagantic monster cocks.</description>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Natural Breasts -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseBreast">
+		<defName>Breasts</defName>
+		<label>average breasts</label>
+		<description>A pair of severed C-cup breasts.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<!-- Average C-cup boobs weight -->
+			<Mass>0.69</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseBreast">
+		<defName>FlatBreasts</defName>
+		<label>flat breasts</label>
+		<description>A pair of severed AA-cup breasts.</description>
+		<statBases>
+			<MarketValue>25</MarketValue>
+			<!-- Average AA-cup boobs weight -->
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseBreast">
+		<defName>SmallBreasts</defName>
+		<label>small breasts</label>
+		<description>A pair of severed A-cup breasts.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<!-- Average A-cup boobs weight -->
+			<Mass>0.23</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseBreast">
+		<defName>LargeBreasts</defName>
+		<label>large breasts</label>
+		<description>A pair of severed E-cup breasts.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<!-- Average E-cup boobs weight -->
+			<Mass>1.38</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseBreast">
+		<defName>HugeBreasts</defName>
+		<label>huge breasts</label>
+		<description>A pair of severed H-cup breasts.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<!-- Average H-cup boobs weight -->
+			<Mass>2.53</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Natural Anuses -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseAnus">
+		<defName>Anus</defName>
+		<label>average anus</label>
+		<description>A severed anus.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseAnus">
+		<defName>MicroAnus</defName>
+		<label>micro anus</label>
+		<description>A severed micro anus. Even satistying natural needs would be hard with it.</description>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<Mass>0.06</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseAnus">
+		<defName>TightAnus</defName>
+		<label>tight anus</label>
+		<description>A severed tight anus.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseAnus">
+		<defName>LooseAnus</defName>
+		<label>loose anus</label>
+		<description>Hey, look a donut. Just kidding, it's an anus.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseAnus">
+		<defName>GapingAnus</defName>
+		<label>gaping anus</label>
+		<description>When you look into the darkness the darkness looks into you. It's an anus, gaping, diapers not included.</description>
+		<statBases>
+			<MarketValue>75</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBaseBreast">
+		<defName>FeaturelessChest</defName>
+		<label>featureless chest</label>
+		<description>Smooth, featureless chest. Primarily found on non-mammalian creatures.</description>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>0.14</Mass>
+		</statBases>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="Multiplayer.Client.MpSettings">
+		<username>deanec64</username>
+		<serverSettings>
+			<autosaveInterval>0.5</autosaveInterval>
+			<pauseOnAutosave>True</pauseOnAutosave>
+			<steam>True</steam>
+			<lan>False</lan>
+		</serverSettings>
+	</ModSettings>
+</SettingsBlock>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: artificial brain -->
+  <ArtificialBrain.label>kunstmatig brein</ArtificialBrain.label>
+  
+  <!-- EN: blade -->
+  <Blade.label>mes</Blade.label>
+  
+  <!-- EN: fluid reprocessor -->
+  <FluidReprocessor.label>vloeistof behandelaar</FluidReprocessor.label>
+  
+  <!-- EN: sound sensor -->
+  <HearingSensor.label>geluidssensor</HearingSensor.label>
+  
+  <!-- EN: arm -->
+  <MechanicalArm.label>arm</MechanicalArm.label>
+  
+  <!-- EN: fifth body ring -->
+  <MechanicalCentipedeBodyFifthRing.label>vijfde lichaamsring</MechanicalCentipedeBodyFifthRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyFifthRing.labelShort>lichaamsring</MechanicalCentipedeBodyFifthRing.labelShort>
+  
+  <!-- EN: first body ring -->
+  <MechanicalCentipedeBodyFirstRing.label>eerste lichaamsring</MechanicalCentipedeBodyFirstRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyFirstRing.labelShort>lichaamsring</MechanicalCentipedeBodyFirstRing.labelShort>
+  
+  <!-- EN: fourth body ring -->
+  <MechanicalCentipedeBodyFourthRing.label>vierde lichaamsring</MechanicalCentipedeBodyFourthRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyFourthRing.labelShort>lichaamsring</MechanicalCentipedeBodyFourthRing.labelShort>
+  
+  <!-- EN: second body ring -->
+  <MechanicalCentipedeBodySecondRing.label>tweede lichaamsring</MechanicalCentipedeBodySecondRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodySecondRing.labelShort>lichaamsring</MechanicalCentipedeBodySecondRing.labelShort>
+  
+  <!-- EN: sixth body ring -->
+  <MechanicalCentipedeBodySixthRing.label>zesde lichaamsring</MechanicalCentipedeBodySixthRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodySixthRing.labelShort>lichaamsring</MechanicalCentipedeBodySixthRing.labelShort>
+  
+  <!-- EN: third body ring -->
+  <MechanicalCentipedeBodyThirdRing.label>derde lichaamsring</MechanicalCentipedeBodyThirdRing.label>
+  <!-- EN: body ring -->
+  <MechanicalCentipedeBodyThirdRing.labelShort>lichaamsring</MechanicalCentipedeBodyThirdRing.labelShort>
+  
+  <!-- EN: finger -->
+  <MechanicalFinger.label>vinger</MechanicalFinger.label>
+  
+  <!-- EN: foot -->
+  <MechanicalFoot.label>voet</MechanicalFoot.label>
+  
+  <!-- EN: hand -->
+  <MechanicalHand.label>hand</MechanicalHand.label>
+  
+  <!-- EN: head -->
+  <MechanicalHead.label>kop</MechanicalHead.label>
+  
+  <!-- EN: leg -->
+  <MechanicalLeg.label>been</MechanicalLeg.label>
+  
+  <!-- EN: neck -->
+  <MechanicalNeck.label>nek</MechanicalNeck.label>
+  
+  <!-- EN: shoulder -->
+  <MechanicalShoulder.label>schouder</MechanicalShoulder.label>
+  
+  <!-- EN: thorax -->
+  <MechanicalThorax.label>borstkas</MechanicalThorax.label>
+  
+  <!-- EN: reactor -->
+  <Reactor.label>reactor</Reactor.label>
+  
+  <!-- EN: visual sensor -->
+  <SightSensor.label>optische sensor</SightSensor.label>
+  
+  <!-- EN: chemical analyzer -->
+  <SmellSensor.label>geursensor</SmellSensor.label>
+  
+</LanguageData>

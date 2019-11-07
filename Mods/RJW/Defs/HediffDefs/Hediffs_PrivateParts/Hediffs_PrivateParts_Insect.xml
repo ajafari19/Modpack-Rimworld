@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Insect privates -->
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>OvipositorF</defName>
+		<label>ovipositor (Female)</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.25</SexAbility>
+					<Vulnerability>0.1</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>OvipositorF</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>OvipositorM</defName>
+		<label>ovipositor (Male)</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.25</SexAbility>
+					<Vulnerability>0.1</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>OvipositorM</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>InsectAnus</defName>
+		<label>insect anus</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.25</SexAbility>
+					<Vulnerability>0.1</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>InsectAnus</spawnThingOnRemoved>
+	</HediffDef>
+</Defs>

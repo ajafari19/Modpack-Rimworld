@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>SlimeGlob</defName>
+		<label>slime glob</label>
+		<description>An oozy slime glob, used to grow slime parts. Useless for humans.</description>
+		<graphicData>
+			<texPath>Things/Item/Parts/slime</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<Mass>4.0</Mass>
+		</statBases>
+	</ThingDef>
+</Defs>

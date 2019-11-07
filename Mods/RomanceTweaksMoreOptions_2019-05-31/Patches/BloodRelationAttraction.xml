@@ -1,0 +1,39 @@
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+	<!-- Patching attractionFactor of Core\Defs\PawnRelationDefs\PawnRelations_FamilyByBlood.xml -->
+			<li Class="PatchOperationReplace">
+				<xpath>*/PawnRelationDef[defName="Parent" or defName="Child" or defName="Sibling" or defName="HalfSibling"]/attractionFactor</xpath>
+				<value>
+					<attractionFactor>1</attractionFactor><!-- Original: 0.03 -->
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/PawnRelationDef[defName="Grandparent" or defName="Grandchild" or defName="NephewOrNiece" or defName="UncleOrAunt" or defName="Cousin"]/attractionFactor</xpath>
+				<value>
+					<attractionFactor>1</attractionFactor><!-- Original: 0.25 -->
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/PawnRelationDef[defName="GreatGrandparent" or defName="GreatGrandchild" or defName="GranduncleOrGrandaunt" or defName="GrandnephewOrGrandniece" or defName="CousinOnceRemoved" or defName="SecondCousin" or defName="Kin"]/attractionFactor</xpath>
+				<value>
+					<attractionFactor>1</attractionFactor><!-- Original: 0.5 -->
+				</value>
+			</li>
+	<!-- Patching incestOpinionOffset of Core\Defs\PawnRelationDefs\PawnRelations_FamilyByBlood.xml -->
+			<li Class="PatchOperationReplace">
+				<xpath>*/PawnRelationDef[defName="Parent" or defName="Child"]/incestOpinionOffset</xpath>
+				<value>
+					<incestOpinionOffset>-10</incestOpinionOffset><!-- Original: -30 -->
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/PawnRelationDef[defName="UncleOrAunt" or defName="Cousin" or defName="HalfSibling" or defName="Sibling"]/incestOpinionOffset</xpath>
+				<value>
+					<incestOpinionOffset>-5</incestOpinionOffset><!-- Original: -15 -->
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!-- <Operation Class="PatchOperationSequence"> -->
+		<!-- <success>Always</success> -->
+		<!-- <operations> -->
+			<!-- <li Class="PatchOperationTest"> -->
+				<!-- <xpath>*/PawnKindDef[defName = "WildMan"]</xpath> -->
+			<!-- </li> -->
+			<!-- <li Class="PatchOperationReplace"> -->
+				<!-- <xpath>*/PawnKindDef[defName="WildMan"]</xpath> -->
+				<!-- <value> -->
+					<!-- <defName>WildMan</defName> -->
+					<!-- <label>wild dragonian</label> -->
+					<!-- <labelPlural>wild dragonian</labelPlural> -->
+					<!-- <labelFemale>wild dragonian</labelFemale> -->
+					<!-- <labelFemalePlural>wild dragonian</labelFemalePlural> -->
+					<!-- <combatPower>35</combatPower> -->
+					<!-- <race>Dragonian</race> -->
+					<!-- <apparelIgnoreSeasons>true</apparelIgnoreSeasons> -->
+					<!-- <backstoryCategories> -->
+						<!-- <li>DragonianStory</li> -->
+					<!-- </backstoryCategories> -->
+					<!-- <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality> -->
+					<!-- <baseRecruitDifficulty>0.50</baseRecruitDifficulty> -->
+					<!-- <itemQuality>Poor</itemQuality> -->
+					<!-- <apparelMoney> -->
+						<!-- <min>600</min> -->
+						<!-- <max>1200</max> -->
+					<!-- </apparelMoney> -->
+					<!-- <apparelTags> -->
+						<!-- <li>DR_Basic</li> -->
+					<!-- </apparelTags>	 -->
+				<!-- </value> -->
+			<!-- </li> -->
+		<!-- </operations> -->
+	<!-- </Operation> -->
+</Patch>

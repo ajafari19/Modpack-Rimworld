@@ -1,0 +1,20 @@
+<Patch>
+	<!-- Patching incestOpinionOffset of Core\Defs\PawnRelationDefs\PawnRelations_FamilyByBlood.xml -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>*/PawnRelationDef[defName="Parent" or defName="Child"]/incestOpinionOffset</xpath>
+				<value>
+					<incestOpinionOffset>0</incestOpinionOffset><!-- Original: -30 -->
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/PawnRelationDef[defName="Sibling" or defName="HalfSibling" or defName="UncleOrAunt" or defName="Cousin"]/incestOpinionOffset</xpath>
+				<value>
+					<incestOpinionOffset>0</incestOpinionOffset><!-- Original: -15 -->
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Milkable Colonists</name>
+  <author>Ziehn</author>
+  <url></url>
+  <supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+  <description>Makes colonists and prisoners milkable.</description>
+</ModMetaData>

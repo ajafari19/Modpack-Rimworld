@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>HorsePenis</defName>
+		<label>equine penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>1.6</SexAbility>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>HorsePenis</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>HorseVagina</defName>
+		<label>equine vagina</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.1</SexAbility>
+					<Vulnerability>0.02</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>HorseVagina</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>CatPenis</defName>
+		<label>feline penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.6</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>CatPenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>CatVagina</defName>
+		<label>feline vagina</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.75</SexAbility>
+					<Vulnerability>0.14</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>CatVagina</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>DogPenis</defName>
+		<label>canine penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.6</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>DogPenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>DogVagina</defName>
+		<label>canine vagina</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.5</SexAbility>
+					<Vulnerability>0.06</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>DogVagina</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>DragonPenis</defName>
+		<label>dragon penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.9</SexAbility>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>DragonPenis</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>DragonVagina</defName>
+		<label>dragon vagina</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.1</SexAbility>
+					<Vulnerability>0.02</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>DragonVagina</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>RaccoonPenis</defName>
+		<label>procyonine penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.4</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>RaccoonPenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>Hemipenis</defName>
+		<label>hemipenis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.6</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>Hemipenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>CrocodilianPenis</defName>
+		<label>crocodilian penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.6</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>CrocodilianPenis</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>Udder</defName>
+		<label>udder</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.1</SexAbility>
+					<Vulnerability>0.12</Vulnerability>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>Udder</spawnThingOnRemoved>
+	</HediffDef>
+</Defs>

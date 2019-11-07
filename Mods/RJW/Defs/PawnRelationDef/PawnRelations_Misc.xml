@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--
+	<PawnRelationDef>
+		<defName>RJW_Dom</defName>
+		<label>dom</label>
+		<importance>0</importance>
+		<opinionOffset>0</opinionOffset>
+		<implied>false</implied>
+		<reflexive>false</reflexive>
+	</PawnRelationDef>
+	
+	<PawnRelationDef>
+		<defName>RJW_Sub</defName>
+		<label>sub</label>
+		<importance>0</importance>
+		<opinionOffset>0</opinionOffset>
+		<implied>false</implied>
+		<reflexive>false</reflexive>
+	</PawnRelationDef>
+	
+	<PawnRelationDef>
+		<defName>RJW_BreederActive</defName>
+		<label>Breeder(Alpha)</label>
+		<importance>0</importance>
+		<opinionOffset>0</opinionOffset>
+		<implied>false</implied>
+		<reflexive>false</reflexive>
+	</PawnRelationDef>
+	
+	<PawnRelationDef>
+		<defName>RJW_BreederPassive</defName>
+		<label>Breeder(mate)</label>
+		<importance>0</importance>
+		<opinionOffset>0</opinionOffset>
+		<implied>false</implied>
+		<reflexive>false</reflexive>
+	</PawnRelationDef>
+	-->
+</Defs>

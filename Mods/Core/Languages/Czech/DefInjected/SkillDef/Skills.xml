@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: animals -->
+  <Animals.label>Zvířata</Animals.label>
+  <!-- EN: Taming, training, and controlling animals. -->
+  <Animals.description>Zkrocení, výcvik a ovládání zvířat.</Animals.description>
+  <!-- EN: animals -->
+  <Animals.skillLabel>Zvířata</Animals.skillLabel>
+  
+  <!-- EN: artistic -->
+  <Artistic.label>Umění</Artistic.label>
+  <!-- EN: Crafting art. -->
+  <Artistic.description>Tvorba uměleckých děl.</Artistic.description>
+  <!-- EN: artistic -->
+  <Artistic.skillLabel>Umění</Artistic.skillLabel>
+  
+  <!-- EN: construction -->
+  <Construction.label>Konstrukce</Construction.label>
+  <!-- EN: Constructing and deconstructing structures and furniture. -->
+  <Construction.description>Výstavba a demolice staveb a nábytku.</Construction.description>
+  <!-- EN: construction -->
+  <Construction.skillLabel>Konstrukce</Construction.skillLabel>
+  
+  <!-- EN: cooking -->
+  <Cooking.label>Vaření</Cooking.label>
+  <!-- EN: Creating meals from raw ingredients quickly and without accidental food poisoning. -->
+  <Cooking.description>Rychlá příprava pokrmů z čerstvých surovin, bez náhodné otravy jídlem.</Cooking.description>
+  <!-- EN: cooking -->
+  <Cooking.skillLabel>Vaření</Cooking.skillLabel>
+  
+  <!-- EN: crafting -->
+  <Crafting.label>řemeslo</Crafting.label>
+  <!-- EN: Crafting general items including weapons, components, and refined resources. -->
+  <Crafting.description>Výroba základních předmětů včetně zbraní, komponentů a zpracování surovin.</Crafting.description>
+  <!-- EN: crafting -->
+  <Crafting.skillLabel>řemeslo</Crafting.skillLabel>
+  
+  <!-- EN: intellectual -->
+  <Intellectual.label>intelekt</Intellectual.label>
+  <!-- EN: Researching and drug synthesis. -->
+  <Intellectual.description>Výzkum technologií a syntéza léčiv a drog.</Intellectual.description>
+  <!-- EN: intellectual -->
+  <Intellectual.skillLabel>intelekt</Intellectual.skillLabel>
+  
+  <!-- EN: medical -->
+  <Medicine.label>lékařství</Medicine.label>
+  <!-- EN: Tending wounds and diseases and performing surgery. -->
+  <Medicine.description>Léčba ran a infekcí, a také provádění operací.</Medicine.description>
+  <!-- EN: medical -->
+  <Medicine.skillLabel>lékařství</Medicine.skillLabel>
+  
+  <!-- EN: melee -->
+  <Melee.label>boj zblízka</Melee.label>
+  <!-- EN: Melee combat, both armed and unarmed. -->
+  <Melee.description>Využití všech druhů zbraní při boji zblízka, stejně jako boje beze zbraně.</Melee.description>
+  <!-- EN: melee -->
+  <Melee.skillLabel>boj zblízka</Melee.skillLabel>
+  
+  <!-- EN: mining -->
+  <Mining.label>hornictví</Mining.label>
+  <!-- EN: Digging tunnels and extracting buried resources. -->
+  <Mining.description>Kopání tunelů a extrakce hluboko pohřbených zdrojů.</Mining.description>
+  <!-- EN: mining -->
+  <Mining.skillLabel>hornictví</Mining.skillLabel>
+  
+  <!-- EN: plants -->
+  <Plants.label>zemědělství</Plants.label>
+  <!-- EN: Sowing, caring for and harvesting crops, and foraging for food while traveling. -->
+  <Plants.description>Setí, péče o rostliny, sklízení úrody, hledání a sběr potravy při cestování.</Plants.description>
+  <!-- EN: plants -->
+  <Plants.skillLabel>zemědělství</Plants.skillLabel>
+  
+  <!-- EN: shooting -->
+  <Shooting.label>střelba</Shooting.label>
+  <!-- EN: Ranged combat, with both high-tech and low-tech weapons. -->
+  <Shooting.description>Využití zbraní na dálku, jak technologicky méně vyspělých, tak i vysoce pokročilých.</Shooting.description>
+  <!-- EN: shooting -->
+  <Shooting.skillLabel>střelba</Shooting.skillLabel>
+  
+  <!-- EN: social -->
+  <Social.label>socializace</Social.label>
+  <!-- EN: Negotiating, convincing, manipulating, leading, and cheering up others. -->
+  <Social.description>Vyjednávání, přesvědčování, manipulace, vůdcovství a rozveselení ostatních.</Social.description>
+  <!-- EN: social -->
+  <Social.skillLabel>socializace</Social.skillLabel>
+  
+</LanguageData>

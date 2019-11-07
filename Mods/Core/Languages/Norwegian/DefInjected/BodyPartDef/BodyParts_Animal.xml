@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: jaw -->
+  <AnimalJaw.label>underkjeve</AnimalJaw.label>
+  
+  <!-- EN: antenna -->
+  <Antenna.label>antenne</Antenna.label>
+  
+  <!-- EN: beak -->
+  <Beak.label>nebb</Beak.label>
+  
+  <!-- EN: body -->
+  <Body.label>torso</Body.label>
+  
+  <!-- EN: elytra -->
+  <Elytra.label>dekkvinge</Elytra.label>
+  
+  <!-- EN: front claw -->
+  <FrontClaw.label>forklo</FrontClaw.label>
+  <!-- EN: claw -->
+  <FrontClaw.labelShort>klo</FrontClaw.labelShort>
+  
+  <!-- EN: head claw -->
+  <HeadClaw.label>hodeklo</HeadClaw.label>
+  
+  <!-- EN: hoof -->
+  <Hoof.label>hov</Hoof.label>
+  
+  <!-- EN: horn -->
+  <Horn.label>horn</Horn.label>
+  
+  <!-- EN: hump -->
+  <Hump.label>pukkel</Hump.label>
+  
+  <!-- EN: head -->
+  <InsectHead.label>hode</InsectHead.label>
+  
+  <!-- EN: heart -->
+  <InsectHeart.label>hjerte</InsectHeart.label>
+  
+  <!-- EN: leg -->
+  <InsectLeg.label>ben</InsectLeg.label>
+  
+  <!-- EN: mouth -->
+  <InsectMouth.label>tyggedeler</InsectMouth.label>
+  
+  <!-- EN: nostril -->
+  <InsectNostril.label>nesebor</InsectNostril.label>
+  
+  <!-- EN: jowl -->
+  <Jowl.label>kinn</Jowl.label>
+  
+  <!-- EN: paw -->
+  <Paw.label>pote</Paw.label>
+  
+  <!-- EN: plastron -->
+  <Plastron.label>mageskall</Plastron.label>
+  
+  <!-- EN: pronotum -->
+  <Pronotum.label>mageskall</Pronotum.label>
+  
+  <!-- EN: rear claw -->
+  <RearClaw.label>bakklo</RearClaw.label>
+  <!-- EN: claw -->
+  <RearClaw.labelShort>klo</RearClaw.labelShort>
+  
+  <!-- EN: shell -->
+  <Shell.label>skall</Shell.label>
+  
+  <!-- EN: body -->
+  <SnakeBody.label>kropp</SnakeBody.label>
+  
+  <!-- EN: head -->
+  <SnakeHead.label>hode</SnakeHead.label>
+  
+  <!-- EN: mouth -->
+  <SnakeMouth.label>munn</SnakeMouth.label>
+  
+  <!-- EN: tail -->
+  <Tail.label>hale</Tail.label>
+  
+  <!-- EN: trunk -->
+  <Trunk.label>snabel</Trunk.label>
+  
+  <!-- EN: beak -->
+  <TurtleBeak.label>nebb</TurtleBeak.label>
+  
+  <!-- EN: shell -->
+  <TurtleShell.label>skall</TurtleShell.label>
+  
+  <!-- EN: tusk -->
+  <Tusk.label>støttann</Tusk.label>
+  
+</LanguageData>

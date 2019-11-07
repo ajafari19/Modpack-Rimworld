@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<IncidentDef>
+		<defName>NymphJoins</defName>
+		<label>nymph joins</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>rjw.IncidentWorker_NymphJoins</workerClass>
+		<baseChance>0.67</baseChance>
+		<minRefireDays>6</minRefireDays>
+	</IncidentDef>
+	
+	<IncidentDef>
+		<defName>NymphVisitorGroup</defName>
+		<label>nymph visitor group</label>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>rjw.IncidentWorker_NymphVisitorGroup</workerClass>
+		<category>Misc</category>
+		<!-- broken, nymph leaves map-->
+		<baseChance>0</baseChance>
+		<pointsScaleable>true</pointsScaleable>
+	</IncidentDef>
+</Defs>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: colonist mood -->
+  <ColonistMood.label>kolonisthumør</ColonistMood.label>
+  
+  <!-- UNUSED -->
+  <ColonistMood.graphLabelY>Prosent</ColonistMood.graphLabelY>
+  
+  <!-- EN: debug -->
+  <Debug.label>TODO</Debug.label>
+  
+  <!-- EN: population -->
+  <Population.label>befolkning</Population.label>
+  
+  <!-- UNUSED -->
+  <Population.graphLabelY>Kolonister</Population.graphLabelY>
+  
+  <!-- EN: wealth -->
+  <Wealth.label>rikdom</Wealth.label>
+  
+  <!-- UNUSED -->
+  <Wealth.graphLabelY>mengde</Wealth.graphLabelY>
+  
+</LanguageData>
