@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="TorannMagic.ModOptions.Settings">
+		<xpMultiplier>1</xpMultiplier>
+		<needMultiplier>1</needMultiplier>
+		<deathExplosionRadius>3</deathExplosionRadius>
+		<AIMarking>True</AIMarking>
+		<baseMageChance>1</baseMageChance>
+		<baseFighterChance>1</baseFighterChance>
+		<advMageChance>0.5</advMageChance>
+		<advFighterChance>0.5</advFighterChance>
+		<magicyteChance>0.00499999989</magicyteChance>
+		<riftChallenge>1</riftChallenge>
+		<autocastMinThreshold>0.699999988</autocastMinThreshold>
+		<autocastCombatMinThreshold>0.199999988</autocastCombatMinThreshold>
+	</ModSettings>
+</SettingsBlock>

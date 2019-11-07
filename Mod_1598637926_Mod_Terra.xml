@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+	<ModSettings Class="Terra.ModSettings_Terra">
+		<grassLayerVisibility>0.5</grassLayerVisibility>
+	</ModSettings>
+</SettingsBlock>
